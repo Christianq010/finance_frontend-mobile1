@@ -1,0 +1,17 @@
+{
+  "name": "sass_starter_pack",
+  "description": "a template for front end projects",
+  "main": "index.js",
+  "authors": [
+    "Christiaan Quyn"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Christianq010/sass_starter_pack",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
