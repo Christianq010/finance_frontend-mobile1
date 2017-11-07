@@ -12,9 +12,10 @@ A light package for compiling Sass and running a dev server and managing bower d
 
 ## Installation
 
-### NPM
+### [NPM] (https://docs.npmjs.com/cli/install)
 * To start a package.json use `npm init`
 * Install packages by using `npm install gulp-sass gulp browersync` etc.
+* Use `-D, --save-dev` and the Package will appear in your `devDependencies`.
 * Install the dependencies after cloning this project (gulp, gulp-sass, browser-sync)
 
 ```sh
