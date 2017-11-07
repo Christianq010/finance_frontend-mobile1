@@ -6,6 +6,8 @@ A light package for compiling Sass and running a dev server and managing bower d
 
 > Also contains a few points on bower and npm as a refresher for me when initilizing a Front End project.
 
+### Deployed
+Deployed via [Surge](https://surge.sh/) at http://disillusioned-needle.surge.sh/
 
 ### Version
 1.0.0
