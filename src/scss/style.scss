@@ -1,12 +1,68 @@
+// Import custom variables from scss/ folder
+@import "customVariables";
 // Import Bootstrap 4 beta
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
-
-/* 
-$bg-color: #333;
-$color: #fff;
-body {
-    background: $bg-color;
-    color: $color;
+// navbar styles
+.navbar-default {
+    background-color: white;
+    border-color: transparent;
+    padding: 0 0 1em 0;
+    .btn-danger {
+        font-family: $roboto;
+        display: inline-block;
+        margin: 1.15em 0 0 0;
+        // background: #ff1e29;
+        border-color: #ff1e29;
+    }
 }
-*/
+
+// Surge logo styles
+.navbar-brand {
+    display: inline-block;
+    img {
+        max-height: 38px;
+        max-width: none;
+    }
+}
+
+// container 01
+.content-one {
+    margin: 5em 1em 0em 4em;
+}
+
+.background-image-holder {
+    // background-image: url('img/bg-768x432.png');
+    padding-top: 1em;
+    // position: fixed;
+    // background-repeat: no-repeat;
+}
+
+// form select for job salary
+.form-selection {
+    .form-group {
+        width: 75%;
+    }
+    color: white;
+    h4 {
+        font-family: $raleway;
+        margin-top: 3px;
+    }
+}
+
+// display job selection result
+.jumbotron {
+    background-color: transparent;
+    h1 {
+        font-size: 3em;
+    }
+    .result-list {
+        font-size: 1.3em;
+    }
+    h1,
+    .result-list,
+    p {
+        color: white;
+        font-family: $raleway;
+    }
+}

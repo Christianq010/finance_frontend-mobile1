@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <title>Sass Starter Pack</title>
+  <title>Surge Global Salary Page</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,800">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -19,30 +23,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">
+            <img alt="Surge Global Logo" src="img\surgelogored2.png">
+          </a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            <li>
+              <button type="button" class="btn btn-danger">Learn more about Surge Global</button>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -50,18 +39,74 @@
 
     <br>
 
-    <div class="container">
+    <div class="container content-one">
+      <section>
+        <!-- BG image for div -->
+        <div class="row background-image-holder" style="background: url(img/bg-768x432.png); opacity: 1;">
 
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
+          <!-- Job Salary Selection input form -->
+            <div class="jumbotron col-md-6 form-selection">
+              <form>
+                  <div class="form-group">
+                    <label for="role"><h4>Role:</h4></label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Android Developer</option>
+                      <option>iOS Developer</option>
+                      <option>Content Writer</option>
+                      <option>CEO</option>
+                      <option>Business Development Manager</option>
+                    </select>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="experience"><h4>Experience:</h4></label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Beginner</option>
+                      <option>Intermediate</option>
+                      <option>Advanced</option>
+                      <option>Master</option>
+                    </select>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="experience"><h4>Location:</h4></label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Colombo</option>
+                      <option>London</option>
+                      <option>New York</option>
+                    </select>
+                  </div>
+                  <hr>
+                  <div class="form-group">
+                    <label for="experience"><h4>Risk Choice:</h4></label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>High Risk</option>
+                      <option>Low Risk</option>
+                    </select>
+                  </div>
+              </form>
+            </div>
 
+            <!-- Result for salary selection -->
+            <div class="jumbotron col-md-6">
+              <h1>Rs. 150,000.00</h1>
+            <hr>
+              <p>
+                <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Share on Facebook</a>
+              </p>
+              <ul class="result-list">
+                <li>Community Champion Base (New York): $59,000</li>
+                <li>Experience (Beginner): 1.00X</li>
+                <li>Risk Choice: $0 (you selected additional equity)</li>
+              </ul>
+              <hr>
+              <p>$59,000 x 1.00 + $0 = $59,000</p>
+              <hr>
+              <p>Get more details on our formula or see Surge's open positions</p>
+            </div>
+
+        </div>
+      </section>
     </div> <!-- /container -->
 
 
