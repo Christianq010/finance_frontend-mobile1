@@ -3,6 +3,8 @@
 // Import Bootstrap 4 beta
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+// Import fontawesome
+@import "../../bower_components/font-awesome/scss/font-awesome";
 // navbar styles
 .navbar-default {
     background-color: white;
@@ -28,7 +30,8 @@
 
 // container 01
 .content-one {
-    margin: 5em 1em 0em 4em;
+    margin: auto;
+    padding: 1em;
 }
 
 .background-image-holder {
@@ -40,8 +43,9 @@
 
 // form select for job salary
 .form-selection {
+    background-color: transparent;
     .form-group {
-        width: 75%;
+        width: 85%;
     }
     color: white;
     h4 {
@@ -51,18 +55,38 @@
 }
 
 // display job selection result
-.jumbotron {
+.result {
     background-color: transparent;
     h1 {
         font-size: 3em;
     }
+    .btn-primary {
+        font-family: $roboto;
+        i {
+            padding: 0 0.5em 0 0;
+        }
+    }
     .result-list {
         font-size: 1.3em;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        .bold-text {
+            font-weight: 600;
+        }
     }
     h1,
     .result-list,
     p {
         color: white;
         font-family: $raleway;
+        // margin-right: -4em;
+    }
+}
+
+// Media Queries
+@media(max-width:841px) {
+    .content-one {
+        margin: 5em 1em 0em 4em;
     }
 }

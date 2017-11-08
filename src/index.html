@@ -13,6 +13,7 @@
 
 <body>
     
+
 <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -45,7 +46,7 @@
         <div class="row background-image-holder" style="background: url(img/bg-768x432.png); opacity: 1;">
 
           <!-- Job Salary Selection input form -->
-            <div class="jumbotron col-md-6 form-selection">
+            <div class="jumbotron col-md-5 form-selection">
               <form>
                   <div class="form-group">
                     <label for="role"><h4>Role:</h4></label>
@@ -88,19 +89,30 @@
             </div>
 
             <!-- Result for salary selection -->
-            <div class="jumbotron col-md-6">
+            <div class="jumbotron col-md-6 result">
               <h1>Rs. 150,000.00</h1>
             <hr>
               <p>
-                <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Share on Facebook</a>
+                <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>Share on Facebook
+                </a>
               </p>
               <ul class="result-list">
-                <li>Community Champion Base (New York): $59,000</li>
-                <li>Experience (Beginner): 1.00X</li>
-                <li>Risk Choice: $0 (you selected additional equity)</li>
+                <li>
+                  <i class="fa fa-check-square" aria-hidden="true"></i>
+                    <span class="bold-text">Community Champion Base (Colombo): </span>Rs 59,000
+                </li>
+                <li>
+                  <i class="fa fa-check-square" aria-hidden="true"></i>
+                    <span class="bold-text">Experience (Beginner): </span> 1.00X
+                </li>              
+                <li>
+                  <i class="fa fa-check-square" aria-hidden="true"></i>
+                    <span class="bold-text">Risk Choice:</span> Rs 0 (you selected additional equity)
+                </li>
               </ul>
               <hr>
-              <p>$59,000 x 1.00 + $0 = $59,000</p>
+              <p class="formula text-center">Rs.59,000 x 1.00 + 0 = Rs 59,000</p>
               <hr>
               <p>Get more details on our formula or see Surge's open positions</p>
             </div>
@@ -113,7 +125,7 @@
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017</p>
+       <!--  <p>&copy; Company 2017</p> -->
     </footer>
 
 
