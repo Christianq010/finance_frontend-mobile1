@@ -1,0 +1,73 @@
+/* 
+.
+. --- Mixins ---- 
+.
+*/
+
+// Media Queries for screens
+@mixin tiny-screens() {
+    @media only screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+@mixin smaller-screens() {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin medium-screens() {
+    @media only screen and (max-width: 680px) {
+        @content;
+    }
+}
+
+@mixin large-screens() {
+    @media only screen and (max-width: 960px) {
+        @content;
+    }
+}
+
+// Our google font
+@mixin google-font($font) {
+    $font: unquote($font);
+    @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+
+@mixin warning {
+    background-color: orange;
+    color: #fff;
+    &:hover {
+        background-color: lighten(orange, 10%);
+    }
+}
+
+@mixin box-shadow($shadow...) {
+    box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+}
+
+@mixin large-text {
+    font: {
+        size: 22px;
+        weight: bold;
+    }
+}
+
+@mixin rounded($radius) {
+    border-radius: $radius;
+}
+
+@mixin box($radius: 6px, $border: 1px solid #000) {
+    @include rounded($radius);
+    border: $border;
+}
+
+@mixin fancy-links {
+    a {
+        font-style: italic;
+        text-decoration: none;
+    }
+}

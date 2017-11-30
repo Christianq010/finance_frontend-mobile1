@@ -1,92 +1,29 @@
+/*
+*
+* --- Imports --
+*
+*/
+
+// Import our custom functions
+@import "partials/customFunctions";
 // Import custom variables from scss/ folder
-@import "customVariables";
+@import "partials/customVariables";
+// Import our mixins
+@import "partials/customMixins";
+// Selecting our Fonts
+@include google-font("Alegreya+Sans");
+@include google-font("Titllium+Web");
 // Import Bootstrap 4 beta
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
 // Import fontawesome
 @import "../../bower_components/font-awesome/scss/font-awesome";
-// navbar styles
-.navbar-default {
-    background-color: white;
-    border-color: transparent;
-    padding: 0 0 1em 0;
-    .btn-danger {
-        font-family: $roboto;
-        display: inline-block;
-        margin: 1.15em 0 0 0;
-        // background: #ff1e29;
-        border-color: #ff1e29;
-    }
-}
 
-// Surge logo styles
-.navbar-brand {
-    display: inline-block;
-    img {
-        max-height: 38px;
-        max-width: none;
-    }
-}
+/*
+*
+* --- Our Main Styles --
+*
+*/
 
-// container 01
-.content-one {
-    margin: auto;
-    padding: 1em;
-}
-
-.background-image-holder {
-    // background-image: url('img/bg-768x432.png');
-    padding-top: 1em;
-    // position: fixed;
-    // background-repeat: no-repeat;
-}
-
-// form select for job salary
-.form-selection {
-    background-color: transparent;
-    .form-group {
-        width: 85%;
-    }
-    color: white;
-    h4 {
-        font-family: $raleway;
-        margin-top: 3px;
-    }
-}
-
-// display job selection result
-.result {
-    background-color: transparent;
-    h1 {
-        font-size: 3em;
-    }
-    .btn-primary {
-        font-family: $roboto;
-        i {
-            padding: 0 0.5em 0 0;
-        }
-    }
-    .result-list {
-        font-size: 1.3em;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        .bold-text {
-            font-weight: 600;
-        }
-    }
-    h1,
-    .result-list,
-    p {
-        color: white;
-        font-family: $raleway;
-        // margin-right: -4em;
-    }
-}
-
-// Media Queries
-@media(max-width:841px) {
-    .content-one {
-        margin: 5em 1em 0em 4em;
-    }
-}
+// Styling for a links
+@include fancy-links;

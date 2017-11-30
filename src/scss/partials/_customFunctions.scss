@@ -1,0 +1,25 @@
+/* 
+.
+. --- Our Custom SCSS Functions ---- 
+.
+*/
+
+// calculate a total
+@function sum($left, $right) {
+    @return $left+$right;
+}
+
+// declare a value in pixels to convert to em
+@function em($pixels, $context: 16px) {
+    @return ($pixels / $context) * 1em;
+}
+
+// declare a col-width 
+@function col-width($columns: 12, $page-width: 100%, $gap: 1%) {
+    @return ($page-width - $gap * ($columns - 1)) / $columns;
+}
+
+// Remove any unit from a value
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
