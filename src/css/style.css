@@ -19,8 +19,7 @@
 . --- Mixins ---- 
 .
 */
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
-@import url(https://fonts.googleapis.com/css?family=Titllium+Web);
+@import url(https://fonts.googleapis.com/css?family=HelveticaNeue+Sans);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -1080,7 +1079,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #222222;
+  color: #333333;
   background-color: #fff; }
 
 input,
@@ -1092,10 +1091,10 @@ textarea {
   line-height: inherit; }
 
 a {
-  color: #f27731;
+  color: #337ab7;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #ca510d;
+    color: #23527c;
     text-decoration: underline; }
   a:focus {
     outline: 5px auto -webkit-focus-ring-color;
@@ -2725,7 +2724,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #626262; }
+  color: #737373; }
 
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -3071,7 +3070,7 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-link {
-  color: #f27731;
+  color: #337ab7;
   font-weight: normal;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -3082,7 +3081,7 @@ fieldset[disabled] a.btn {
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
   .btn-link:hover, .btn-link:focus {
-    color: #ca510d;
+    color: #23527c;
     text-decoration: underline;
     background-color: transparent; }
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
@@ -3583,7 +3582,7 @@ tbody.collapse.in {
         cursor: not-allowed; }
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #f27731; }
+    border-color: #337ab7; }
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
@@ -4103,7 +4102,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #f27731;
+      color: #337ab7;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4120,7 +4119,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 2;
-    color: #ca510d;
+    color: #23527c;
     background-color: #eeeeee;
     border-color: #ddd; }
   .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus,
@@ -4288,7 +4287,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   .list-group-item.active > .badge,
   .nav-pills > .active > a > .badge {
-    color: #f27731;
+    color: #337ab7;
     background-color: #fff; }
   .list-group-item > .badge {
     float: right; }
@@ -4356,12 +4355,12 @@ a.badge:hover, a.badge:focus {
     margin-right: auto; }
   .thumbnail .caption {
     padding: 9px;
-    color: #222222; }
+    color: #333333; }
 
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #f27731; }
+  border-color: #337ab7; }
 
 .alert {
   padding: 15px;
@@ -8173,3 +8172,9 @@ button.close {
 a {
   font-style: italic;
   text-decoration: none; }
+
+/*
+----- Our Navbar ----- 
+*/
+.navbar-icons {
+  padding: 0 0 0 55em; }

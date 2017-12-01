@@ -11,8 +11,7 @@
 // Import our mixins
 @import "partials/customMixins";
 // Selecting our Fonts
-@include google-font("Alegreya+Sans");
-@include google-font("Titllium+Web");
+@include google-font("HelveticaNeue+Sans");
 // Import Bootstrap 4 beta
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
@@ -27,3 +26,11 @@
 
 // Styling for a links
 @include fancy-links;
+
+/*
+----- Our Navbar ----- 
+*/
+
+.navbar-icons {
+    padding: 0 0 0 55em;
+}
