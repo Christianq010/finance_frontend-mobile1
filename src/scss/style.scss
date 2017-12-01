@@ -26,11 +26,43 @@
 
 // Styling for a links
 @include fancy-links;
+// Top Red Line 
+.top-line {
+    width: 1440px;
+    height: 15px;
+    background-color: $blood-red;
+}
+
 
 /*
 ----- Our Navbar ----- 
 */
 
-.navbar-icons {
-    padding: 0 0 0 55em;
+.navbar-logo {
+    width: 97.2px;
+    height: 35px;
+    object-fit: contain;
+    @include object-fit;
+}
+
+.navbar-nav {
+    clear: both;
+    float: right;
+    .nav-item {
+        margin: 0em 2em;
+        @include object-fit;
+        // Each individual icon
+        .search-icon {
+            width: 21.6px;
+            height: 21.6px;
+        }
+        .cart-icon {
+            width: 24px;
+            height: 24px;
+        }
+        .menu-icon {
+            width: 21.6px;
+            height: 14.4px;
+        }
+    }
 }

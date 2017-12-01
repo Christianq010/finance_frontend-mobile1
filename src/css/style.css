@@ -8173,8 +8173,32 @@ a {
   font-style: italic;
   text-decoration: none; }
 
+.top-line {
+  width: 1440px;
+  height: 15px;
+  background-color: #de0000; }
+
 /*
 ----- Our Navbar ----- 
 */
-.navbar-icons {
-  padding: 0 0 0 55em; }
+.navbar-logo {
+  width: 97.2px;
+  height: 35px;
+  object-fit: contain;
+  object-fit: contain; }
+
+.navbar-nav {
+  clear: both;
+  float: right; }
+  .navbar-nav .nav-item {
+    margin: 0em 2em;
+    object-fit: contain; }
+    .navbar-nav .nav-item .search-icon {
+      width: 21.6px;
+      height: 21.6px; }
+    .navbar-nav .nav-item .cart-icon {
+      width: 24px;
+      height: 24px; }
+    .navbar-nav .nav-item .menu-icon {
+      width: 21.6px;
+      height: 14.4px; }

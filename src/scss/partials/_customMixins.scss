@@ -35,6 +35,11 @@
     @import url(https://fonts.googleapis.com/css?family=#{$font});
 }
 
+// Object-fit , resize to number to fit container
+@mixin object-fit {
+    object-fit: contain;
+}
+
 @mixin warning {
     background-color: orange;
     color: #fff;
