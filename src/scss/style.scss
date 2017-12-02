@@ -66,3 +66,28 @@
         }
     }
 }
+
+
+/*
+----- Main Content ----- 
+*/
+
+.close-btn {
+    // width: 14px;
+    // height: 14px;
+    // @include object-fit;
+    margin: 5em 0 0 0;
+    display: block;
+}
+
+// Nike Mercurial h1 Tag
+.nike-h1 {
+    width: 503px;
+    height: 41px;
+    font-family: $text-font;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 0.82;
+    letter-spacing: 1.3px;
+    color: $black;
+}

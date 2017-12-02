@@ -8202,3 +8202,20 @@ a {
     .navbar-nav .nav-item .menu-icon {
       width: 21.6px;
       height: 14.4px; }
+
+/*
+----- Main Content ----- 
+*/
+.close-btn {
+  margin: 5em 0 0 0;
+  display: block; }
+
+.nike-h1 {
+  width: 503px;
+  height: 41px;
+  font-family: "HelveticaNeue", Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 0.82;
+  letter-spacing: 1.3px;
+  color: #000000; }
