@@ -15,7 +15,7 @@ The project file for this Sketch Mockup can be found [here](https://www.dropbox.
 
 
 ### Deployed
-Deployed via [Surge](https://surge.sh/) at http://surge-global-salary-1.surge.sh/
+Deployed via [Surge](https://surge.sh/) at http://acid-year.surge.sh/
 
 
 ## Installation
