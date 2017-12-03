@@ -76,13 +76,13 @@
     // width: 14px;
     // height: 14px;
     // @include object-fit;
-    margin: 5em 0 0 0;
+    margin: 3em 0 0 0;
     display: block;
 }
 
 // Nike Mercurial h1 and small Tag
 .nike-h1 {
-    margin: 0 0 0 17em;
+    margin: 0 0 0 14.3em;
     font-family: $headline-font-med;
     font-size: 34px;
     font-weight: 500;
@@ -115,16 +115,16 @@
         text-align: left;
         color: $blood-red;
     }
-    .color-txt {
-        margin-top: em(53px);
-        width: 88px;
-        height: 30px;
-        font-family: $headline-font;
+    h5 {
+        font-family: $headline-font-med;
         font-size: 25px;
         font-weight: 500;
         line-height: 1.12;
         text-align: left;
         color: $black;
+    }
+    .color-txt {
+        margin-top: em(25px);
     }
     .color-slc {
         ul {
@@ -144,6 +144,39 @@
                 width: 25px;
                 height: 25px;
                 object-fit: contain;
+            }
+        }
+    }
+    .size-slc {
+        ul {
+            list-style: none;
+            // display: inherit;
+            padding: 0 0 0 0;
+        }
+        li {
+            cursor: pointer;
+            margin: 0.5em;
+            .size-box {
+                text-align: center;
+                width: 124px;
+                height: 57px;
+                border: solid 1px $box-grey;
+                padding: 1em;
+            }
+            p {
+                font-family: $text-font;
+                font-size: 25px;
+                font-weight: 300;
+                line-height: 1.12;
+                color: $warm-grey;
+            }
+        }
+        .selected-box {
+            div {
+                border-color: $blood-red;
+            }
+            p {
+                color: $blood-red;
             }
         }
     }

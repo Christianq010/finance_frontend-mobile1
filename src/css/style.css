@@ -8207,11 +8207,11 @@ a {
 ----- Main Content ----- 
 */
 .close-btn {
-  margin: 5em 0 0 0;
+  margin: 3em 0 0 0;
   display: block; }
 
 .nike-h1 {
-  margin: 0 0 0 17em;
+  margin: 0 0 0 14.3em;
   font-family: "HelveticaNeue-medium", Arial, sans-serif;
   font-size: 34px;
   font-weight: 500;
@@ -8238,16 +8238,15 @@ a {
     line-height: 0.7;
     text-align: left;
     color: #de0000; }
-  .card .color-txt {
-    margin-top: 3.3125em;
-    width: 88px;
-    height: 30px;
-    font-family: "HelveticaNeue", Georgia, serif;
+  .card h5 {
+    font-family: "HelveticaNeue-medium", Arial, sans-serif;
     font-size: 25px;
     font-weight: 500;
     line-height: 1.12;
     text-align: left;
     color: #000000; }
+  .card .color-txt {
+    margin-top: 1.5625em; }
   .card .color-slc ul {
     list-style: none;
     padding: 1em; }
@@ -8262,3 +8261,25 @@ a {
       width: 25px;
       height: 25px;
       object-fit: contain; }
+  .card .size-slc ul {
+    list-style: none;
+    padding: 0 0 0 0; }
+  .card .size-slc li {
+    cursor: pointer;
+    margin: 0.5em; }
+    .card .size-slc li .size-box {
+      text-align: center;
+      width: 124px;
+      height: 57px;
+      border: solid 1px #c8c8c8;
+      padding: 1em; }
+    .card .size-slc li p {
+      font-family: "HelveticaNeue-light";
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 1.12;
+      color: #a5a5a5; }
+  .card .size-slc .selected-box div {
+    border-color: #de0000; }
+  .card .size-slc .selected-box p {
+    color: #de0000; }
