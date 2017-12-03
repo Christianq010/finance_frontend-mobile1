@@ -80,14 +80,71 @@
     display: block;
 }
 
-// Nike Mercurial h1 Tag
+// Nike Mercurial h1 and small Tag
 .nike-h1 {
-    width: 503px;
-    height: 41px;
-    font-family: $text-font;
+    margin: 0 0 0 17em;
+    font-family: $headline-font-med;
     font-size: 34px;
     font-weight: 500;
     line-height: 0.82;
     letter-spacing: 1.3px;
     color: $black;
+    small {
+        font-family: $text-font;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.0;
+        letter-spacing: 1.2px;
+        text-align: left;
+        color: $black;
+    }
+}
+
+// Main Content Cards 
+// Shoe details card
+.card {
+    border: none;
+    .card-price {
+        // margin-top: em(61px);
+        width: 101px;
+        height: 50px;
+        font-family: $headline-font-med;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 0.7;
+        text-align: left;
+        color: $blood-red;
+    }
+    .color-txt {
+        margin-top: em(53px);
+        width: 88px;
+        height: 30px;
+        font-family: $headline-font;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 1.12;
+        text-align: left;
+        color: $black;
+    }
+    .color-slc {
+        ul {
+            list-style: none;
+            padding: 1em;
+        }
+        li {
+            .selected {
+                background-color: darken($warm-grey, 15%);
+                border-radius: 11px;
+                // background-color: grey;
+            }
+            margin-right: 0.5em;
+            display: inline-block;
+            cursor: pointer;
+            img {
+                width: 25px;
+                height: 25px;
+                object-fit: contain;
+            }
+        }
+    }
 }
