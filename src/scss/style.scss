@@ -74,7 +74,7 @@
     // width: 14px;
     // height: 14px;
     // @include object-fit;
-    margin: 3em 0 0 0;
+    margin: 0.2em 0 0 0;
     display: block;
 }
 
@@ -105,6 +105,38 @@
 }
 
 // Main Content Cards 
+// Shoe images
+.shoe-img {
+    a {
+        img {
+            padding: 1.5em;
+            width: 422px;
+            height: 437px;
+            object-fit: contain;
+        }
+    }
+    .shoe-tiles {
+        ul {
+            display: inline-flex;
+            list-style: none;
+            .shoe-tile {
+                width: 70px;
+                height: 60px;
+                border: solid 1px #d8d8d8;
+                padding: 0.5em;
+                margin: 0 0.7em 0 0.2em;
+                cursor: pointer;
+                span {
+                    img {
+                        width: 50px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Shoe details card
 .card {
     border: none;
@@ -128,7 +160,7 @@
         color: $black;
     }
     .color-txt {
-        margin-top: em(25px);
+        margin-top: em(20px);
     }
     .color-slc {
         ul {

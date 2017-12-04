@@ -8203,7 +8203,7 @@ button.close {
 ----- Main Content ----- 
 */
 .close-btn {
-  margin: 3em 0 0 0;
+  margin: 0.2em 0 0 0;
   display: block; }
 
 .nike-h1 {
@@ -8227,6 +8227,26 @@ button.close {
   height: 595.4px;
   border-right: solid 2px #cbcbcb; }
 
+.shoe-img a img {
+  padding: 1.5em;
+  width: 422px;
+  height: 437px;
+  object-fit: contain; }
+
+.shoe-img .shoe-tiles ul {
+  display: inline-flex;
+  list-style: none; }
+  .shoe-img .shoe-tiles ul .shoe-tile {
+    width: 70px;
+    height: 60px;
+    border: solid 1px #d8d8d8;
+    padding: 0.5em;
+    margin: 0 0.7em 0 0.2em;
+    cursor: pointer; }
+    .shoe-img .shoe-tiles ul .shoe-tile span img {
+      width: 50px;
+      height: 40px; }
+
 .card {
   border: none; }
   .card .card-price {
@@ -8246,7 +8266,7 @@ button.close {
     text-align: left;
     color: #000000; }
   .card .color-txt {
-    margin-top: 1.5625em; }
+    margin-top: 1.25em; }
   .card .color-slc ul {
     list-style: none;
     padding: 1em; }
