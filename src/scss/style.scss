@@ -98,6 +98,12 @@
     }
 }
 
+// Main Vertical Line
+.vl {
+    height: 595.4px;
+    border-right: solid 2px $border-grey;
+}
+
 // Main Content Cards 
 // Shoe details card
 .card {

@@ -8223,6 +8223,10 @@ button.close {
     text-align: left;
     color: #000000; }
 
+.vl {
+  height: 595.4px;
+  border-right: solid 2px #cbcbcb; }
+
 .card {
   border: none; }
   .card .card-price {
