@@ -24,8 +24,6 @@
 *
 */
 
-// Styling for a links
-@include fancy-links;
 // Top Red Line 
 .top-line {
     width: 1440px;
@@ -151,7 +149,7 @@
         ul {
             list-style: none;
             // display: inherit;
-            padding: 0 0 0 0;
+            padding: 0.5em;
         }
         li {
             cursor: pointer;
@@ -177,6 +175,62 @@
             }
             p {
                 color: $blood-red;
+            }
+        }
+    }
+    .bag-box {
+        margin: 2em 0 0 0;
+        .add-to-bag {
+            display: inherit;
+            width: 544px;
+            height: 80px;
+            border: solid 0.5px $box-grey;
+            cursor: pointer;
+            .share-icon {
+                width: 80px;
+                height: 80px;
+                border-right: solid 1px $box-grey;
+                span {
+                    img {
+                        width: 18px;
+                        height: 20px;
+                        margin: 2em;
+                    }
+                }
+            }
+            .heart-icon {
+                width: 80px;
+                height: 80px;
+                background-color: $blood-red;
+                // border: solid 1px $box-grey;
+            }
+            span {
+                img {
+                    width: 22.2px;
+                    height: 20px;
+                    object-fit: contain;
+                    margin: 2em;
+                }
+            }
+        }
+        .add-to-bag {
+            p {
+                margin: auto;
+                height: 29px;
+                font-size: 22px;
+                font-weight: 300;
+                letter-spacing: 2.2px;
+                color: $black;
+                a {
+                    color: $black;
+                    &:hover {
+                        color: lighten($black, 55%);
+                        text-decoration: none;
+                    }
+                }
+            }
+            span {
+                border: none;
             }
         }
     }

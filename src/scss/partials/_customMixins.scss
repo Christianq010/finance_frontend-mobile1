@@ -72,7 +72,10 @@
 
 @mixin fancy-links {
     a {
-        font-style: italic;
         text-decoration: none;
+        &:hover {
+            color: lighten($black, 15%);
+            text-decoration: none;
+        }
     }
 }

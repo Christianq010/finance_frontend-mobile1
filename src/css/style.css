@@ -8169,10 +8169,6 @@ button.close {
 * --- Our Main Styles --
 *
 */
-a {
-  font-style: italic;
-  text-decoration: none; }
-
 .top-line {
   width: 1440px;
   height: 15px;
@@ -8263,7 +8259,7 @@ a {
       object-fit: contain; }
   .card .size-slc ul {
     list-style: none;
-    padding: 0 0 0 0; }
+    padding: 0.5em; }
   .card .size-slc li {
     cursor: pointer;
     margin: 0.5em; }
@@ -8283,3 +8279,42 @@ a {
     border-color: #de0000; }
   .card .size-slc .selected-box p {
     color: #de0000; }
+  .card .bag-box {
+    margin: 2em 0 0 0; }
+    .card .bag-box .add-to-bag {
+      display: inherit;
+      width: 544px;
+      height: 80px;
+      border: solid 0.5px #c8c8c8;
+      cursor: pointer; }
+      .card .bag-box .add-to-bag .share-icon {
+        width: 80px;
+        height: 80px;
+        border-right: solid 1px #c8c8c8; }
+        .card .bag-box .add-to-bag .share-icon span img {
+          width: 18px;
+          height: 20px;
+          margin: 2em; }
+      .card .bag-box .add-to-bag .heart-icon {
+        width: 80px;
+        height: 80px;
+        background-color: #de0000; }
+      .card .bag-box .add-to-bag span img {
+        width: 22.2px;
+        height: 20px;
+        object-fit: contain;
+        margin: 2em; }
+    .card .bag-box .add-to-bag p {
+      margin: auto;
+      height: 29px;
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: 2.2px;
+      color: #000000; }
+      .card .bag-box .add-to-bag p a {
+        color: #000000; }
+        .card .bag-box .add-to-bag p a:hover {
+          color: #8c8c8c;
+          text-decoration: none; }
+    .card .bag-box .add-to-bag span {
+      border: none; }
