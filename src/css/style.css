@@ -8303,6 +8303,9 @@ button.close {
     border-color: #de0000; }
   .card .size-slc .selected-box p {
     color: #de0000; }
+  .card .size-slc .no-size-box {
+    background: url(http://i.piccy.info/i7/c7a432fe0beb98a3a66f5b423b430423/1-5-1789/1066503/lol.png);
+    background-size: 100% 100%; }
   .card .bag-box {
     margin: 2em 0 0 0; }
     .card .bag-box .add-to-bag {
