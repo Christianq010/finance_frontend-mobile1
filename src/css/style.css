@@ -8169,11 +8169,6 @@ button.close {
 * --- Our Main Styles --
 *
 */
-.top-line {
-  width: 1440px;
-  height: 15px;
-  background-color: #de0000; }
-
 /*
 ----- Our Navbar ----- 
 */
@@ -8202,6 +8197,16 @@ button.close {
 /*
 ----- Main Content ----- 
 */
+.bgimg {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1; }
+
 .close-btn {
   margin: 0.2em 0 0 0;
   display: block; }
