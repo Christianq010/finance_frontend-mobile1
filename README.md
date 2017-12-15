@@ -1,11 +1,11 @@
-# Mockup Sketch Design to Webpage 
-This project is a mockup Sketch project turned into a webpage. The Mockup was created on Sketch by [sketchapptv](https://sketchapp.tv/). 
+# Finance App - Mobile Mockup Sketch Design to Webpage 
+This project is a mockup Sketch project turned into a webpage. The Mockup was created on Sketch.
 
 Tools used to aid the Front-end work were [Zeplin](https://zeplin.io/) and NPM and Gulp for compiling [SASS](http://sass-lang.com/) and running a dev server and managing bower dependencies.
 
 ## Mockup Preview
 
-[![Mockup Preview](https://preview.ibb.co/gJM6hw/nike_mockup.jpg)](https://preview.ibb.co/gJM6hw/nike_mockup.jpg)
+<!-- [![Mockup Preview](https://preview.ibb.co/gJM6hw/nike_mockup.jpg)](https://preview.ibb.co/gJM6hw/nike_mockup.jpg) -->
 
 The project file for this Sketch Mockup can be found [here](https://www.dropbox.com/s/z2joborck7ss21z/nikeredesign.sketch) 
 
@@ -36,3 +36,10 @@ This will watch your sass files, compile them and run your dev server at http://
 ```sh
 $ npm start
 ```
+
+### Troubleshooting
+#### The `node-sass` Error
+* Delete the `node_modules` folder installed via `npm install`
+* Install node dependencies with `yarn install`
+* Run `npm rebuild node-sass`
+* Run with `gulp`.
