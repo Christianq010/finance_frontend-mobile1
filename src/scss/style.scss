@@ -10,6 +10,8 @@
 @import "partials/customVariables";
 // Import our mixins
 @import "partials/customMixins";
+// Import our Pages
+@import "pages/start-page";
 // Selecting our Fonts
 @include google-font("HelveticaNeue+Sans");
 // Import Bootstrap 4 beta
@@ -62,26 +64,6 @@
 /*
 ----- Main Content ----- 
 */
-
-// Background Image 
-.bgimg {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    z-index: -1;
-}
-
-.close-btn {
-    // width: 14px;
-    // height: 14px;
-    // @include object-fit;
-    margin: 0.2em 0 0 0;
-    display: block;
-}
 
 // Nike Mercurial h1 and small Tag
 .nike-h1 {
