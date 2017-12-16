@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="136px" viewBox="0 0 159 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>logo 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28.1058036,132.259396 L77.9305246,47.1185981 C77.9305246,47.1185981 63.6062558,22.020084 56.2001709,9.53953179 C55.2212003,7.88979462 53.8394203,5.20229838 52.5762103,3.26871745 C51.516866,1.64719144 50.8383405,0.357177734 50.8383405,0.357177734 C50.8383405,0.357177734 50.6830216,0.221762677 50.6047096,0.357177734 C34.0206723,29.0338594 0.851292783,86.7934679 0.851292783,86.7934679 L28.1058036,132.259396 Z" id="path-1"></path>
+        <filter x="-4.5%" y="-1.9%" width="109.1%" height="105.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="28.1432819 132.193283 127.031777 132.193283 155.560618 87.2130615 54.5540452 87.1095161"></polygon>
+        <filter x="-2.7%" y="-5.5%" width="105.5%" height="115.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="50.8380952 0.296993264 105.659701 0.296993264 155.625867 87.1992615 101.036399 87.1992615"></polygon>
+        <filter x="-3.3%" y="-2.9%" width="106.7%" height="108.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="00_Welcome-Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-296.000000, -482.000000)">
+        <g id="logo-3" transform="translate(297.000000, 483.000000)">
+            <g id="Path-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Path-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Path-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <polygon id="Path-4" fill-opacity="0.6" fill="#165E95" opacity="0.1" points="28.1561802 132.313245 76.1656982 87.2644735 54.4865711 87.2644735"></polygon>
+            <path d="M105.999732,87.226591 C122.567307,87.2851153 155.695502,87.2265915 155.695502,87.2265915 L90.3270194,68.5097561 L101.087824,87.226591 C101.087824,87.226591 104.35334,87.2207752 105.999732,87.226591 Z" id="Path-6" fill="#165E95" opacity="0.1"></path>
+            <polygon id="Path-6" fill-opacity="0.699999988" fill="#165E95" opacity="0.1" points="78.112562 47.5043981 66.9245598 65.3705006 50.8371218 0.352126736"></polygon>
+        </g>
+    </g>
+</svg>

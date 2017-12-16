@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="46px" viewBox="0 0 53 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.771875,41.7661252 L24.3222656,14.8795573 C24.3222656,14.8795573 19.851634,6.95371075 17.5401807,3.01248372 C17.2346421,2.49151409 16.803386,1.64283107 16.4091357,1.03222656 C16.0785123,0.520165718 15.8667432,0.112792969 15.8667432,0.112792969 C15.8667432,0.112792969 15.8182679,0.070030319 15.7938265,0.112792969 C10.6179168,9.16858718 0.265690104,27.4084635 0.265690104,27.4084635 L8.771875,41.7661252 Z" id="path-1"></path>
+        <filter x="-14.5%" y="-6.0%" width="129.1%" height="116.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="8.78357206 41.7452474 39.6468605 41.7452474 48.5507662 27.5409668 17.0264217 27.5082682"></polygon>
+        <filter x="-8.8%" y="-17.6%" width="117.6%" height="149.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-5" points="15.8666667 0.0937873466 32.9765947 0.0937873466 48.5711304 27.5366089 31.5336532 27.5366089"></polygon>
+        <filter x="-10.7%" y="-9.1%" width="121.4%" height="125.5%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="00_Welcome-Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-462.000000, -1257.000000)">
+        <g id="logo" transform="translate(464.000000, 1258.000000)">
+            <g>
+                <g id="Path-1">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#135180" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Path-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#135180" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Path-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#135180" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <polygon id="Path-4" fill-opacity="0.6" fill="#165E95" points="8.78759766 41.7831299 23.77146 27.5572021 17.005363 27.5572021"></polygon>
+                <path d="M33.0827189,27.5452393 C38.2534907,27.5637206 48.5928635,27.5452394 48.5928635,27.5452394 L28.1912353,21.6346598 L31.549703,27.5452393 C31.549703,27.5452393 32.5688768,27.5434027 33.0827189,27.5452393 Z" id="Path-6" fill="#165E95"></path>
+                <polygon id="Path-6" fill-opacity="0.699999988" fill="#165E95" points="24.3790799 15.0013889 20.887283 20.643316 15.8663628 0.111197917"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
