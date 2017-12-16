@@ -30,4 +30,37 @@ body {
             object-fit: contain;
         }
     }
+    // Main Font
+    .main-font {
+        color: $white;
+        h3 {
+            font-family: $text-font;
+            font-size: 2.5em;
+            font-weight: 500;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-family: $headline-font;
+            font-size: 1.5em;
+        }
+    }
+    .p-bottom {
+        color: $pale-grey;
+        font-size: 0.8em;
+        line-height: 1.3;
+        margin: 4em 0 0 0;
+    }
+}
+
+footer {
+    background-color: $pale-grey;
+    background: $pale-grey;
+    padding: 0;
+    margin: 2em 0 0 0;
+    img {
+        width: 9em;
+        height: 5.5em;
+        padding-bottom: 1.5em;
+        object-fit: contain;
+    }
 }
