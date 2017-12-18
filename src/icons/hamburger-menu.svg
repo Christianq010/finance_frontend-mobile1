@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="34px" viewBox="0 0 51 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-11.1%" y="-14.3%" width="122.2%" height="135.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="04_Sign-In-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-31.000000, -89.000000)">
+        <g id="header" transform="translate(0.000000, 51.000000)" fill="#FFFFFF">
+            <g id="icon" filter="url(#filter-1)" transform="translate(34.000000, 40.000000)">
+                <rect id="Rectangle-33" x="0" y="0" width="45" height="6" rx="3"></rect>
+                <rect id="Rectangle-34" x="0" y="11" width="45" height="6" rx="3"></rect>
+                <rect id="Rectangle-35" x="0" y="22" width="45" height="6" rx="3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

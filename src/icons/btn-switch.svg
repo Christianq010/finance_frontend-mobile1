@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="33px" viewBox="0 0 45 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="45" height="33"></rect>
+    </defs>
+    <g id="04_Sign-In-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-602.000000, -540.000000)">
+        <g id="Save-this-Online-ID-+-Rectangle-44-+-NO-+-Group-+-Line-6-+-Use-Touch-ID-+-Rectangle-44-+-NO-+-Group-2" transform="translate(28.000000, 410.000000)">
+            <g id="Use-Touch-ID-+-Rectangle-44-+-NO-+-Group-2" transform="translate(5.000000, 125.000000)">
+                <g id="Rectangle-44-+-NO-+-Group-2" transform="translate(560.000000, 0.000000)">
+                    <g id="button" transform="translate(9.000000, 5.000000)">
+                        <g id="Group">
+                            <g id="Rectangle-45">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="44" height="32"></rect>
+                            </g>
+                            <path d="M12.5,9.5 L12.5,24.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M22.5,9.5 L22.5,24.5" id="Line-3" stroke="#979797" stroke-linecap="square"></path>
+                            <path d="M32.5,9.5 L32.5,24.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
