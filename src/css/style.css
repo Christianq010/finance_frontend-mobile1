@@ -8530,17 +8530,31 @@ body {
   src: url("../../fonts/ecoicons/ecoicons.eot");
   src: url("../../fonts/ecoicons/ecoicons.eot?#iefix") format("embedded-opentype"), url("../../fonts/ecoicons/ecoicons.woff") format("woff"), url("../../fonts/ecoicons/ecoicons.ttf") format("truetype"), url("../../fonts/ecoicons/ecoicons.svg#ecoicons") format("svg"); }
 
+/* Custom Nav Styles */
+ul li h3 {
+  background: #023365;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: "HelveticaNeue-light";
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-left: 4em; }
+
+.gn-icon-menu img {
+  width: 2.5em;
+  height: 2em; }
+
 /* Icomoon.com */
 .gn-menu-main,
 .gn-menu-main ul {
   margin: 0;
   padding: 0;
-  background: white;
-  color: #5f6f81;
+  background: #023365;
+  color: #ffffff;
   list-style: none;
   text-transform: none;
-  font-weight: 300;
-  font-family: 'Lato', Arial, sans-serif;
+  font-weight: 500;
+  font-family: "HelveticaNeue", Georgia, serif;
   line-height: 60px; }
 
 .gn-menu-main {
@@ -8568,13 +8582,11 @@ body {
   display: block;
   float: left;
   height: 100%;
-  border-right: 1px solid #c6d0da;
   text-align: center; }
 
 /* icon-only trigger (menu item) */
 .gn-menu-main li.gn-trigger {
   position: relative;
-  width: 60px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -8583,12 +8595,9 @@ body {
   user-select: none; }
 
 .gn-menu-main > li:last-child {
-  float: right;
-  border-right: none;
-  border-left: 1px solid #c6d0da; }
+  border-right: none; }
 
 .gn-menu-main > li > a {
-  padding: 0 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold; }
@@ -8747,14 +8756,11 @@ input.gn-search:focus {
   display: block;
   overflow: hidden; }
 
-.gn-icon-menu::before {
+.gn-icon-menu::before img {
   margin-left: -15px;
   vertical-align: -2px;
-  width: 30px;
-  height: 3px;
-  background: #5f6f81;
-  box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
-  content: ''; }
+  width: 3px;
+  height: 3px; }
 
 .no-touch .gn-icon-menu:hover::before,
 .no-touch .gn-icon-menu.gn-selected:hover::before {

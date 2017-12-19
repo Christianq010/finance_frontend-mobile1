@@ -19,16 +19,20 @@
 
 <body>
 
+    <!-- Main Container -->
     <div class="container">
 
         <!-- Navbar -->
-        <ul id="gn-menu" class="gn-menu-main">
+        <ul id="gn-menu" class="gn-menu-main row">
             <!-- Hamburger menu -->
-            <li class="gn-trigger">
-                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+            <li class="gn-trigger col-sm-2">
+                <a class="gn-icon gn-icon-menu">
+                    <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+                    <span>Menu</span>
+                </a>
                 <nav class="gn-menu-wrapper">
                     <!-- gn-scroller (hamburger menu content) -->
-                    <div class="gn-scroller">
+                    <div class="col-md-4 gn-scroller">
                         <ul class="gn-menu">
                             <li class="gn-search-item">
                                 <input placeholder="Search" type="search" class="gn-search">
@@ -57,9 +61,9 @@
                 </nav>
             </li>
             <!-- /end of Hamburger Menu content -->
-            <li><a href="http://tympanus.net/codrops">Codrops</a></li>
-            <li><a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/HeaderEffects/"><span>Previous Demo</span></a></li>
-            <li><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=16030"><span>Back to the Codrops Article</span></a></li>
+            <li class="sign-in text-center col-sm-10">
+                <h3 class="header-txt">Sign In</h3>
+            </li>
         </ul>
         <!-- /end of Navbar -->
 

@@ -15,18 +15,44 @@
 }
 
 
+/* Custom Nav Styles */
+
+// Nav h3
+ul {
+    li {
+        h3 {
+            background: $marine-blue;
+            color: $white;
+            font-size: 1.5em;
+            font-weight: 500;
+            font-family: $text-font;
+            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+            margin-left: 4em;
+        }
+    }
+}
+
+// Nav hamburger icon
+.gn-icon-menu {
+    img {
+        width: 2.5em;
+        height: 2em;
+    }
+}
+
+
 /* Icomoon.com */
 
 .gn-menu-main,
 .gn-menu-main ul {
     margin: 0;
     padding: 0;
-    background: white;
-    color: #5f6f81;
+    background: $marine-blue;
+    color: $white;
     list-style: none;
     text-transform: none;
-    font-weight: 300;
-    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 500;
+    font-family: $headline-font;
     line-height: 60px;
 }
 
@@ -58,7 +84,6 @@
     display: block;
     float: left;
     height: 100%;
-    border-right: 1px solid #c6d0da;
     text-align: center;
 }
 
@@ -67,7 +92,6 @@
 
 .gn-menu-main li.gn-trigger {
     position: relative;
-    width: 60px;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -77,13 +101,12 @@
 }
 
 .gn-menu-main>li:last-child {
-    float: right;
+    // float: right;
     border-right: none;
-    border-left: 1px solid #c6d0da;
 }
 
 .gn-menu-main>li>a {
-    padding: 0 30px;
+    // padding: 0 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
@@ -285,13 +308,13 @@ input.gn-search:focus {
 }
 
 .gn-icon-menu::before {
-    margin-left: -15px;
-    vertical-align: -2px;
-    width: 30px;
-    height: 3px;
-    background: #5f6f81;
-    box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
-    content: '';
+    img {
+        margin-left: -15px;
+        vertical-align: -2px;
+        width: 3px;
+        height: 3px;
+        // background: lightblue url("icons/hamburger-menu.svg") no-repeat fixed center;
+    }
 }
 
 .no-touch .gn-icon-menu:hover::before,
