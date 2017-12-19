@@ -26,39 +26,17 @@
 *
 */
 
+// Ensure our element size is what we define it
+*,
+*:after,
+*::before {
+    box-sizing: border-box;
+}
+
 
 /*
 ----- Our Navbar ----- 
 */
-
-.navbar-logo {
-    width: 97.2px;
-    height: 35px;
-    object-fit: contain;
-    @include object-fit;
-}
-
-.navbar-nav {
-    clear: both;
-    float: right;
-    .nav-item {
-        margin: 0em 2em;
-        @include object-fit;
-        // Each individual icon
-        .search-icon {
-            width: 21.6px;
-            height: 21.6px;
-        }
-        .cart-icon {
-            width: 24px;
-            height: 24px;
-        }
-        .menu-icon {
-            width: 21.6px;
-            height: 14.4px;
-        }
-    }
-}
 
 
 /*

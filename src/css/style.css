@@ -68,10 +68,11 @@ footer {
   margin: 2em 0 0 0;
   clear: both;
   position: fixed;
-  bottom: 0; }
+  bottom: 0;
+  height: 4.5em; }
   footer img {
     width: 11em;
-    height: 5.5em;
+    height: 5em;
     object-fit: contain; }
 
 /*!
@@ -8223,31 +8224,14 @@ button.close {
 * --- Our Main Styles --
 *
 */
+*,
+*:after,
+*::before {
+  box-sizing: border-box; }
+
 /*
 ----- Our Navbar ----- 
 */
-.navbar-logo {
-  width: 97.2px;
-  height: 35px;
-  object-fit: contain;
-  object-fit: contain; }
-
-.navbar-nav {
-  clear: both;
-  float: right; }
-  .navbar-nav .nav-item {
-    margin: 0em 2em;
-    object-fit: contain; }
-    .navbar-nav .nav-item .search-icon {
-      width: 21.6px;
-      height: 21.6px; }
-    .navbar-nav .nav-item .cart-icon {
-      width: 24px;
-      height: 24px; }
-    .navbar-nav .nav-item .menu-icon {
-      width: 21.6px;
-      height: 14.4px; }
-
 /*
 ----- Main Content ----- 
 */
