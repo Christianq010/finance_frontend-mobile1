@@ -1,8 +1,11 @@
 /*
 *
-* --- Imports --
+* --------------- Imports ------------------- | 
 *
 */
+
+
+/* ----------- Import partials ---------*/
 
 // Import our custom functions
 @import "partials/customFunctions";
@@ -10,19 +13,35 @@
 @import "partials/customVariables";
 // Import our mixins
 @import "partials/customMixins";
-// Import our Pages
-@import "pages/start-page";
+
+/* ----------- Import Fonts ---------*/
+
 // Selecting our Fonts
 @include google-font("HelveticaNeue+Sans");
+
+/* ----------- Import Dependencies ---------*/
+
 // Import Bootstrap 4 beta
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
-// Import fontawesome
+// Import Fontawesome
 @import "../../bower_components/font-awesome/scss/font-awesome";
+// Import Normalize
+@import "../lib/normalize";
+
+/* ----------- Import Pages ---------*/
+
+@import "pages/start-page";
+@import "pages/sign-in-page";
+
+/* ----------- Import Components ---------*/
+
+@import "components/navbar";
+// ------------------ // end of Imports ---------------------//
 
 /*
 *
-* --- Our Main Styles --
+* ------------- Global Styles ------------ |
 *
 */
 
@@ -32,13 +51,3 @@
 *::before {
     box-sizing: border-box;
 }
-
-
-/*
------ Our Navbar ----- 
-*/
-
-
-/*
------ Main Content ----- 
-*/
