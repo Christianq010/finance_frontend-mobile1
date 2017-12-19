@@ -1,5 +1,11 @@
+# folders
 dist 
 node_modules
 app/.idea
 app/lib
 bower_components
+
+#vs code settings
+.vscode/
+
+# individual files
