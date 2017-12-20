@@ -19,62 +19,73 @@
 
 <body>
 
-    <!-- Main Container -->
-    <div class="container">
+    <header>
+        <!-- Main Container -->
+        <div class="container row">
 
-        <!-- Navbar -->
-        <ul id="gn-menu" class="gn-menu-main row">
-            <!-- Hamburger menu -->
-            <li class="gn-trigger col-sm-2">
-                <a class="gn-icon gn-icon-menu">
-                    <img src="icons/hamburger-menu.svg" class="hamburger-menu">
-                    <span>Menu</span>
-                </a>
-                <nav class="gn-menu-wrapper">
-                    <!-- gn-scroller (hamburger menu content) -->
-                    <div class="col-md-4 gn-scroller">
-                        <ul class="gn-menu">
-                            <li class="gn-search-item">
-                                <input placeholder="Search" type="search" class="gn-search">
-                                <a class="gn-icon gn-icon-search"><span>Search</span></a>
-                            </li>
-                            <li>
-                                <a class="gn-icon gn-icon-download">Downloads</a>
-                                <ul class="gn-submenu">
-                                    <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-                                    <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="gn-icon gn-icon-cog">Settings</a></li>
-                            <li><a class="gn-icon gn-icon-help">Help</a></li>
-                            <li>
-                                <a class="gn-icon gn-icon-archive">Archives</a>
-                                <ul class="gn-submenu">
-                                    <li><a class="gn-icon gn-icon-article">Articles</a></li>
-                                    <li><a class="gn-icon gn-icon-pictures">Images</a></li>
-                                    <li><a class="gn-icon gn-icon-videos">Videos</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /gn-scroller - hamburger menu content-->
-                </nav>
-            </li>
-            <!-- /end of Hamburger Menu content -->
-            <li class="sign-in text-center col-sm-10">
-                <h3 class="header-txt">Sign In</h3>
-            </li>
-        </ul>
-        <!-- /end of Navbar -->
+            <!-- Navbar -->
+            <ul id="gn-menu" class="gn-menu-main row">
+                <!-- Hamburger menu -->
+                <li class="gn-trigger col-sm-2">
+                    <a class="gn-icon gn-icon-menu">
+                        <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+                        <span>Menu</span>
+                    </a>
+                    <nav class="gn-menu-wrapper">
+                        <!-- gn-scroller (hamburger menu content) -->
+                        <div class="col-md-4 gn-scroller">
+                            <ul class="gn-menu">
+                                <li class="gn-search-item">
+                                    <input placeholder="Search" type="search" class="gn-search">
+                                    <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                                </li>
+                                <li>
+                                    <a class="gn-icon gn-icon-download">Downloads</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                        <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                                <li><a class="gn-icon gn-icon-help">Help</a></li>
+                                <li>
+                                    <a class="gn-icon gn-icon-archive">Archives</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                        <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                        <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /gn-scroller - hamburger menu content-->
+                    </nav>
+                </li>
+                <!-- /end of Hamburger Menu content -->
+                <li class="sign-in text-center col-sm-10">
+                    <h3 class="header-txt">Sign In</h3>
+                </li>
+            </ul>
+            <!-- /end of Navbar -->
+        </div>
+        <!-- /container -->
+    </header>
 
-
-        <header>
-            <h1>Google Nexus Website Menu <span>A sidebar menu as seen on the <a href="http://www.google.com/nexus/index.html">Google Nexus 7</a> page</span></h1>
-        </header>
-
-
+    <div class="container-fluid">
+        <!-- Enter Online ID -->
+        <section class="online-id">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- <p class="text-left">Enter Online ID</p> -->
+                    <input class="text-left" type="online_id" name="onlineID" placeholder="Enter Online ID">
+                </div>
+                <!-- /end of  -->
+            </div>
+            <!-- /end of row -->
+        </section>
+        <!-- /end of Enter Online ID -->
     </div>
-    <!-- /container -->
+    <!-- /end of container-fluid -->
 
 
     <script src="vendor/classie.js"></script>
