@@ -28,6 +28,8 @@
 @import "../../bower_components/font-awesome/scss/font-awesome";
 // Import Normalize
 @import "../lib/normalize";
+// Import Nav CSS
+@import "../lib/nav-demo";
 
 /* ----------- Import Pages ---------*/
 
@@ -50,4 +52,9 @@
 *:after,
 *::before {
     box-sizing: border-box;
+}
+
+// Take out padding for container-fluid
+.container-fluid {
+    padding: 0;
 }
