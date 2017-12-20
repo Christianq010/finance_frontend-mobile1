@@ -54,6 +54,14 @@
     -webkit-box-shadow: $shadow;
 }
 
+// Font Styles
+@mixin standard-text {
+    font-size: 1.3em;
+    color: $cool-grey;
+    font-weight: 500;
+    font-family: $text-font;
+}
+
 @mixin large-text {
     font: {
         size: 22px;
