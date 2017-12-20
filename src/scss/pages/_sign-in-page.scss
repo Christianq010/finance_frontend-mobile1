@@ -16,15 +16,36 @@ body {
         position: static;
         margin: 25% 0 0 0;
         input {
+            @include standard-text;
             width: 100%;
             background-color: $white;
             border-top: solid 1px rgba(151, 151, 151, 0.5);
             border-bottom: solid 1px rgb(151, 151, 151);
-            padding: 1.2em;
-            font-size: 1.3em;
-            color: $cool-grey;
-            font-weight: 500;
-            font-family: $text-font;
+            padding: 1.5em 1em;
+            border-radius: 0px;
+        }
+    }
+    .main-content {
+        margin: 10% 0 0 0;
+        background-color: $white;
+        border-top: solid 1px rgb(151, 151, 151);
+        .save-online-id {
+            padding: 1.2em 0 0 0;
+            background-color: white;
+            height: 6em;
+            border-bottom: solid 1px rgb(151, 151, 151);
+            p {
+                @include standard-text;
+                float: left;
+                margin: 1em;
+            }
+            span {
+                float: right;
+                margin: 1em;
+                img {
+                    margin: 0 0 0 0.5em;
+                }
+            }
         }
     }
 }

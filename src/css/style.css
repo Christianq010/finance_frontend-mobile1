@@ -8334,69 +8334,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* ----------- Import Pages ---------*/
 /*
-*
-* --- Our Main Styles for Start Page--
-*
-*/
-/*
------ Main Content ----- 
-*/
-body .bgimg {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  z-index: -1; }
-
-body .main-logo img {
-  width: 8em;
-  height: 8em;
-  margin: 14em 1em 0 1em;
-  object-fit: contain; }
-
-body .main-font {
-  color: #ffffff; }
-  body .main-font h3 {
-    font-family: "HelveticaNeue-light";
-    font-size: 2.5em;
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
-  body .main-font p {
-    font-family: "HelveticaNeue", Georgia, serif;
-    font-size: 1.5em; }
-
-body .p-bottom {
-  color: #eef2f4;
-  font-size: 1em;
-  line-height: 1.3;
-  margin: 10% 0 0 0; }
-
-footer {
-  background-color: #eef2f4;
-  background: #eef2f4;
-  padding: 0;
-  margin: 2em 0 0 0;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  height: 4.5em; }
-  footer img {
-    width: 11em;
-    height: 5em;
-    object-fit: contain; }
-
-/*
-*
-* --- Our Main Styles for Sign-in Page--
-*
-*/
-/*
------ Main Content ----- 
+-----Main Content styling from Google nexux nav ----- 
 */
 @font-face {
   font-family: 'codropsicons';
@@ -8404,9 +8343,6 @@ footer {
   src: url("../../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../../fonts/codropsicons/codropsicons.woff") format("woff"), url("../../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
   font-weight: normal;
   font-style: normal; }
-
-body {
-  background: #34495e; }
 
 .container > header,
 .codrops-top {
@@ -8507,13 +8443,116 @@ body {
 @media screen and (max-width: 1025px) {
   .container > header {
     margin: 0 auto;
-    padding: 120px 50px;
+    /* padding: 120px 50px; */
     font-size: 70%;
     text-align: right; } }
 
 @media screen and (max-width: 740px) {
   .codrops-icon span {
     display: none; } }
+
+/* ----------- Import Pages ---------*/
+/*
+*
+* --- Our Main Styles for Start Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body .bgimg {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1; }
+
+body .main-logo img {
+  width: 8em;
+  height: 8em;
+  margin: 14em 1em 0 1em;
+  object-fit: contain; }
+
+body .main-font {
+  color: #ffffff; }
+  body .main-font h3 {
+    font-family: "HelveticaNeue-light";
+    font-size: 2.5em;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+  body .main-font p {
+    font-family: "HelveticaNeue", Georgia, serif;
+    font-size: 1.5em; }
+
+body .p-bottom {
+  color: #eef2f4;
+  font-size: 1em;
+  line-height: 1.3;
+  margin: 10% 0 0 0; }
+
+footer {
+  background-color: #eef2f4;
+  background: #eef2f4;
+  padding: 0;
+  margin: 2em 0 0 0;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  height: 4.5em; }
+  footer img {
+    width: 11em;
+    height: 5em;
+    object-fit: contain; }
+
+/*
+*
+* --- Our Main Styles for Sign-in Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body {
+  background-color: #eef1f4;
+  z-index: -1; }
+  body .online-id {
+    position: static;
+    margin: 25% 0 0 0; }
+    body .online-id input {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light";
+      width: 100%;
+      background-color: #ffffff;
+      border-top: solid 1px rgba(151, 151, 151, 0.5);
+      border-bottom: solid 1px #979797;
+      padding: 1.5em 1em;
+      border-radius: 0px; }
+  body .main-content {
+    margin: 10% 0 0 0;
+    background-color: #ffffff;
+    border-top: solid 1px #979797; }
+    body .main-content .save-online-id {
+      padding: 1.2em 0 0 0;
+      background-color: white;
+      height: 6em;
+      border-bottom: solid 1px #979797; }
+      body .main-content .save-online-id p {
+        font-size: 1.3em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light";
+        float: left;
+        margin: 1em; }
+      body .main-content .save-online-id span {
+        float: right;
+        margin: 1em; }
+        body .main-content .save-online-id span img {
+          margin: 0 0 0 0.5em; }
 
 /* ----------- Import Components ---------*/
 *,
@@ -8608,6 +8647,7 @@ ul li h3 {
   content: ""; }
 
 .gn-menu-wrapper {
+  z-index: 99;
   position: fixed;
   top: 60px;
   bottom: 0;
@@ -8793,6 +8833,16 @@ input.gn-search:focus {
   .gn-menu-wrapper.gn-open-all .gn-scroller {
     width: 130%; } }
 
+/* ----------- Import modules ---------*/
+/* =====================================================
+   Toggle - switch stylee
+   ===================================================== */
+.toggle-box {
+  width: 5em;
+  height: 2.2em;
+  background-color: #ffffff;
+  border: solid 1px rgba(151, 151, 151, 0.5); }
+
 /*
 *
 * ------------- Global Styles ------------ |
@@ -8802,3 +8852,6 @@ input.gn-search:focus {
 *:after,
 *::before {
   box-sizing: border-box; }
+
+.container-fluid {
+  padding: 0; }
