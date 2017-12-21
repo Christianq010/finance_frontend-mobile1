@@ -62,19 +62,33 @@
     font-family: $text-font;
 }
 
+@mixin standard-text-sm {
+    font-size: 1.15em;
+    color: $cool-grey;
+    font-weight: 500;
+    font-family: $text-font;
+}
+
+@mixin blue-text-sm {
+    font-size: 1.15em;
+    color: $water-blue;
+    font-weight: 500;
+    font-family: $text-font;
+}
+
 // Toggle Font and Icon
-@mixin toggle-font-icon {
-    p {
-        @include standard-text;
-        float: left;
-        margin: 1em;
-    }
-    span {
-        float: right;
-        margin: 1em;
-        img {
-            margin: 0 0 0 0.5em;
-        }
+@mixin toggle-font {
+    @include standard-text;
+    float: left;
+    margin: 1em;
+}
+
+// Toggle Icon
+@mixin toggle-icon {
+    float: right;
+    margin: 1em;
+    img {
+        margin: 0 0 0 0.5em;
     }
 }
 
