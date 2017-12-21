@@ -34,16 +34,38 @@ body {
             background-color: white;
             height: 6em;
             border-bottom: solid 1px rgb(151, 151, 151);
+            // Mixin for toggle <p> and icon 
             p {
-                @include standard-text;
-                float: left;
-                margin: 1em;
+                @include toggle-font;
             }
             span {
-                float: right;
-                margin: 1em;
-                img {
-                    margin: 0 0 0 0.5em;
+                @include toggle-icon;
+            }
+        }
+        .use-touch-id {
+            position: relative;
+            padding: 1.5em 0 0 0;
+            height: 6em;
+            // Mixin for toggle <p> and icon 
+            // Mixin for toggle <p> and icon 
+            p {
+                @include toggle-font;
+            }
+            span {
+                @include toggle-icon;
+            }
+        }
+        .help-options {
+            margin: 1.3em 1.3em 1.5em 1.3em;
+            p {
+                .sign-in-help {
+                    // Font Style
+                    @include standard-text-sm;
+                }
+            }
+            p {
+                .blue-text {
+                    @include blue-text-sm;
                 }
             }
         }

@@ -8553,6 +8553,34 @@ body {
         margin: 1em; }
         body .main-content .save-online-id span img {
           margin: 0 0 0 0.5em; }
+    body .main-content .use-touch-id {
+      position: relative;
+      padding: 1.5em 0 0 0;
+      height: 6em; }
+      body .main-content .use-touch-id p {
+        font-size: 1.3em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light";
+        float: left;
+        margin: 1em; }
+      body .main-content .use-touch-id span {
+        float: right;
+        margin: 1em; }
+        body .main-content .use-touch-id span img {
+          margin: 0 0 0 0.5em; }
+    body .main-content .help-options {
+      margin: 1.3em 1.3em 1.5em 1.3em; }
+      body .main-content .help-options p .sign-in-help {
+        font-size: 1.15em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light"; }
+      body .main-content .help-options p .blue-text {
+        font-size: 1.15em;
+        color: #1c89c7;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light"; }
 
 /* ----------- Import Components ---------*/
 *,
@@ -8577,7 +8605,7 @@ ul li h3 {
   font-weight: 500;
   font-family: "HelveticaNeue-light";
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  margin-left: 4em; }
+  margin: 1em 6.3em; }
 
 .gn-icon-menu img {
   width: 2.5em;
@@ -8631,7 +8659,8 @@ ul li h3 {
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none; }
+  user-select: none;
+  left: 1em; }
 
 .gn-menu-main > li:last-child {
   border-right: none; }

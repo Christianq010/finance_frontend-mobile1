@@ -11,6 +11,8 @@
     <title>Finance | Sign-in page</title>
     <link rel="shortcut icon" href="../favicon.ico">
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -26,14 +28,14 @@
             <!-- Navbar -->
             <ul id="gn-menu" class="gn-menu-main row">
                 <!-- Hamburger menu -->
-                <li class="gn-trigger col-sm-2">
+                <li class="gn-trigger">
                     <a class="gn-icon gn-icon-menu">
                         <img src="icons/hamburger-menu.svg" class="hamburger-menu">
                         <span>Menu</span>
                     </a>
                     <nav class="gn-menu-wrapper">
                         <!-- gn-scroller (hamburger menu content) -->
-                        <div class="col-md-4 gn-scroller">
+                        <div class="gn-scroller">
                             <ul class="gn-menu">
                                 <li class="gn-search-item">
                                     <input placeholder="Search" type="search" class="gn-search">
@@ -62,7 +64,7 @@
                     </nav>
                 </li>
                 <!-- /end of Hamburger Menu content -->
-                <li class="sign-in text-center col-sm-10">
+                <li class="sign-in text-center">
                     <h3 class="header-txt">Sign In</h3>
                 </li>
             </ul>
@@ -87,19 +89,40 @@
 
         <!-- Main Content Section -->
         <section class="main-content">
-            <!-- row -->
+
+            <!-- Save Online ID row -->
             <div class="save-online-id">
                 <p class="text-left">Save this Online ID</p>
                 <span class="toggle-box"><img width="23" height="27" src="icons/btn-switch.svg"></span>
             </div>
             <!-- /end of row -->
+
+            <!-- Use Touch ID row -->
+            <div class="use-touch-id">
+                <p class="text-left">Use Touch ID</p>
+                <span class="toggle-box"><img width="23" height="27" src="icons/btn-switch.svg"></span>
+            </div>
+            <!-- /end of row -->
+
+            <!-- Sign in Help Option content-->
+            <div class="help-options">
+                <p class=""><a href="#" class="sign-in-help">Sign In Help Option</a></p>
+                <p class=""><a href="#" class="blue-text">Enroll in Online & Mobile Banking</a></p>
+                <p class=""><a href="#" class="blue-text">Forgot your Passcode?</a></p>
+                <p class=""><a href="#" class="blue-text">Forgot your Online ID?</a></p>
+            </div>
+            <!-- /end of Sign in Help Option content-->
+
         </section>
         <!-- /end of Main Content Section -->
 
     </div>
     <!-- /end of container-fluid -->
 
-
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Javascript for Hamburger Menu -->
     <script src="vendor/classie.js"></script>
     <script src="vendor/gnmenu.js"></script>
     <script>
