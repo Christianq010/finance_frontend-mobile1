@@ -33,7 +33,7 @@ body {
             padding: 1.2em 0 0 0;
             background-color: white;
             height: 6em;
-            border-bottom: solid 1px rgb(151, 151, 151);
+            // border-bottom: solid 1px rgb(151, 151, 151);
             // Mixin for toggle <p> and icon 
             p {
                 @include toggle-font;
@@ -41,6 +41,12 @@ body {
             span {
                 @include toggle-icon;
             }
+        }
+        hr {
+            border-top: solid 1px rgb(151, 151, 151);
+            width: 89%;
+            padding: 0;
+            margin: 0.2em 0 0 1.5em;
         }
         .use-touch-id {
             position: relative;

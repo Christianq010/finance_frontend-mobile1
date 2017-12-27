@@ -8539,8 +8539,7 @@ body {
     body .main-content .save-online-id {
       padding: 1.2em 0 0 0;
       background-color: white;
-      height: 6em;
-      border-bottom: solid 1px #979797; }
+      height: 6em; }
       body .main-content .save-online-id p {
         font-size: 1.3em;
         color: #929497;
@@ -8553,6 +8552,11 @@ body {
         margin: 1em; }
         body .main-content .save-online-id span img {
           margin: 0 0 0 0.5em; }
+    body .main-content hr {
+      border-top: solid 1px #979797;
+      width: 85%;
+      padding: 0;
+      margin: 0.2em 0 0 1.5em; }
     body .main-content .use-touch-id {
       position: relative;
       padding: 1.5em 0 0 0;
