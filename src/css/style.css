@@ -8581,6 +8581,9 @@ body {
         color: #1c89c7;
         font-weight: 500;
         font-family: "HelveticaNeue-light"; }
+    body .main-content button {
+      margin: 1.3em 1.3em 1em 1.3em;
+      width: 9.7em; }
 
 /* ----------- Import Components ---------*/
 *,
@@ -8864,13 +8867,19 @@ input.gn-search:focus {
 
 /* ----------- Import modules ---------*/
 /* =====================================================
-   Toggle - switch stylee
+   Button - Styles
    ===================================================== */
 .toggle-box {
   width: 5em;
   height: 2.2em;
   background-color: #ffffff;
   border: solid 1px rgba(151, 151, 151, 0.5); }
+
+.lg-blue-btn {
+  background-color: #104072;
+  border-radius: 0px;
+  font-family: "HelveticaNeue-light";
+  font-weight: 500; }
 
 /*
 *
