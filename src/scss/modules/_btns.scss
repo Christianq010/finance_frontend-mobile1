@@ -1,5 +1,5 @@
 /* =====================================================
-   Toggle - switch stylee
+   Button - Styles
    ===================================================== */
 
 .toggle-box {
@@ -7,4 +7,11 @@
     height: 2.2em;
     background-color: $white;
     border: solid 1px rgba(151, 151, 151, 0.5);
+}
+
+.lg-blue-btn {
+    background-color: $light-navy-three;
+    border-radius: 0px;
+    font-family: $text-font;
+    font-weight: 500;
 }
