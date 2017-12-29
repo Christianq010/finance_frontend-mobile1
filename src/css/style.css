@@ -8596,6 +8596,36 @@ body {
       padding: 0em 1em;
       height: 10em; }
 
+/*
+*
+* --- Our Main Styles for Log in Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body .bg-phone {
+  width: 100%;
+  height: 100%;
+  right: 1.3em;
+  margin: 0;
+  padding: 2.5em;
+  position: fixed;
+  top: 0;
+  z-index: -1; }
+
+body .content-card {
+  background-color: #0e3c6e;
+  margin-top: 27em;
+  height: 349px; }
+  body .content-card h3 {
+    padding: 0.5em; }
+  body .content-card p {
+    font-size: 1.3em;
+    color: #929497;
+    font-weight: 500;
+    font-family: "HelveticaNeue-light"; }
+
 /* ----------- Import Components ---------*/
 *,
 *:after,

@@ -1,0 +1,36 @@
+/*
+*
+* --- Our Main Styles for Log in Page--
+*
+*/
+
+
+/*
+----- Main Content ----- 
+*/
+
+body {
+    // Background Image 
+    .bg-phone {
+        width: 100%;
+        height: 100%;
+        right: 1.3em;
+        margin: 0;
+        padding: 2.5em;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+    }
+    .content-card {
+        background-color: $twilight-blue;
+        margin-top: 27em;
+        height: 349px;
+        h3 {
+            padding: 0.5em 0 0 0;
+        }
+        p {
+            @include standard-text;
+            padding: 0.6em;
+        }
+    }
+}
