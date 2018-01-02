@@ -27,7 +27,7 @@ ul {
             font-weight: 500;
             font-family: $text-font;
             text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-            margin-left: 4em;
+            margin: 1em 6.3em;
         }
     }
 }
@@ -56,6 +56,7 @@ ul {
     line-height: 60px;
 }
 
+// Main Navbar
 .gn-menu-main {
     position: fixed;
     top: 0;
@@ -98,6 +99,7 @@ ul {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    left: 1em;
 }
 
 .gn-menu-main>li:last-child {
@@ -118,7 +120,9 @@ ul {
     content: "";
 }
 
+// Hamburger Menu Open Nav Contents
 .gn-menu-wrapper {
+    z-index: 99;
     position: fixed;
     top: 60px;
     bottom: 0;
