@@ -104,6 +104,34 @@
     height: 5em;
 }
 
+// Style our hover <a> links
+@mixin lighten-links {
+    text-decoration: none;
+    &:hover {
+        color: lighten($twilight-blue, 35%);
+        text-decoration: none;
+    }
+}
+
+@mixin darken-links {
+    text-decoration: none;
+    &:hover {
+        color: darken($twilight-blue, 10%);
+        text-decoration: none;
+    }
+}
+
+// Just default a tag styling
+@mixin default-links {
+    a {
+        text-decoration: none;
+        &:hover {
+            color: darken($twilight-blue, 10%);
+            text-decoration: none;
+        }
+    }
+}
+
 @mixin large-text {
     font: {
         size: 22px;
@@ -118,14 +146,4 @@
 @mixin box($radius: 6px, $border: 1px solid #000) {
     @include rounded($radius);
     border: $border;
-}
-
-@mixin fancy-links {
-    a {
-        text-decoration: none;
-        &:hover {
-            color: lighten($black, 15%);
-            text-decoration: none;
-        }
-    }
 }
