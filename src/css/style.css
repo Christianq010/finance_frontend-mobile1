@@ -8641,7 +8641,8 @@ body footer {
     font-weight: 300; }
   body footer .blue-bg {
     background-color: #0e3c6e;
-    height: 100%; }
+    height: 100%;
+    border-top: solid 1px rgba(151, 151, 151, 0.5); }
     body footer .blue-bg .sgn-txt {
       color: #ffffff;
       font-size: 1.5em;

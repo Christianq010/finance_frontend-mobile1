@@ -44,6 +44,7 @@ body {
         .blue-bg {
             background-color: $twilight-blue;
             height: 100%;
+            border-top: solid 1px rgba(151, 151, 151, 0.5);
             .sgn-txt {
                 color: $white;
                 // font-family: $headline-font;
