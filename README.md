@@ -1,13 +1,13 @@
 # Finance App - Mobile Mockup Sketch Design to Webpage 
-This project is a mockup Sketch project turned into a webpage. The Mockup was created on Sketch.
+This project is a mockup Sketch project turned into a webpage optimized for a mobile experience. The Mockup was created on Sketch.
 
-Tools used to aid the Front-end work were [Zeplin](https://zeplin.io/) and NPM and Gulp for compiling [SASS](http://sass-lang.com/) and running a dev server and managing bower dependencies.
+Tools used to aid the Front-end work were [Zeplin](https://zeplin.io/), Chrome Dev Tools for testing and NPM and Gulp for compiling [SASS](http://sass-lang.com/) and running a dev server and managing bower dependencies.
 
 ## Mockup Preview
 
-<!-- [![Mockup Preview](https://preview.ibb.co/gJM6hw/nike_mockup.jpg)](https://preview.ibb.co/gJM6hw/nike_mockup.jpg) -->
+[![Mockup Preview](https://preview.ibb.co/j78NxG/finance_mobile.png)](https://ibb.co/ei4vHG)
 
-The project file for this Sketch Mockup can be found [here](https://www.dropbox.com/s/z2joborck7ss21z/nikeredesign.sketch) 
+The project file for this Sketch Mockup can be found [here](https://www.sketchappsources.com/free-source/949-boa-mobile-banking-app-sketch-freebie-resource.html)
 
 
 ## Usage
