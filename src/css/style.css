@@ -8626,6 +8626,19 @@ body .content-card {
     font-weight: 500;
     font-family: "HelveticaNeue-light";
     padding: 1em; }
+  body .content-card .circle .selected {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: transparent;
+    border: solid 2px #ffffff; }
+  body .content-card .circle .not-selected {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ffffff; }
 
 body footer {
   background-color: #eef2f4;
