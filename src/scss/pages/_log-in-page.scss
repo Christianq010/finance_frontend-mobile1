@@ -13,7 +13,7 @@ body {
     // Background Image 
     .bg-phone {
         width: 100%;
-        height: 100%;
+        // height: 100%;
         right: 1.3em;
         margin: 0;
         padding: 2.5em;
@@ -30,7 +30,7 @@ body {
         }
         p {
             @include standard-text;
-            padding: 0.6em;
+            padding: 1em;
         }
     }
     footer {

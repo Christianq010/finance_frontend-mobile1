@@ -8606,7 +8606,6 @@ body {
 */
 body .bg-phone {
   width: 100%;
-  height: 100%;
   right: 1.3em;
   margin: 0;
   padding: 2.5em;
@@ -8617,7 +8616,7 @@ body .bg-phone {
 body .content-card {
   background-color: #0e3c6e;
   margin-top: 27em;
-  height: 349px; }
+  height: 330px; }
   body .content-card h3 {
     padding: 0.5em 0 0 0; }
   body .content-card p {
@@ -8625,7 +8624,7 @@ body .content-card {
     color: #929497;
     font-weight: 500;
     font-family: "HelveticaNeue-light";
-    padding: 0.6em; }
+    padding: 1em; }
 
 body footer {
   background-color: #eef2f4;
