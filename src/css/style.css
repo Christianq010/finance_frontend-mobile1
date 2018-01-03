@@ -8619,12 +8619,34 @@ body .content-card {
   margin-top: 27em;
   height: 349px; }
   body .content-card h3 {
-    padding: 0.5em; }
+    padding: 0.5em 0 0 0; }
   body .content-card p {
     font-size: 1.3em;
     color: #929497;
     font-weight: 500;
-    font-family: "HelveticaNeue-light"; }
+    font-family: "HelveticaNeue-light";
+    padding: 0.6em; }
+
+body footer {
+  background-color: #eef2f4;
+  background: #eef2f4;
+  padding: 0;
+  margin: 2em 0 0 0;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  height: 5em; }
+  body footer .log-txt {
+    color: #0e3c6e;
+    font-size: 1.5em;
+    font-weight: 300; }
+  body footer .blue-bg {
+    background-color: #0e3c6e;
+    height: 100%; }
+    body footer .blue-bg .sgn-txt {
+      color: #ffffff;
+      font-size: 1.5em;
+      font-weight: 300; }
 
 /* ----------- Import Components ---------*/
 *,

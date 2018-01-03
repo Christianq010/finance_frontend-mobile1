@@ -24,13 +24,32 @@ body {
     .content-card {
         background-color: $twilight-blue;
         margin-top: 27em;
-        height: 349px;
+        height: 330px;
         h3 {
             padding: 0.5em 0 0 0;
         }
         p {
             @include standard-text;
             padding: 0.6em;
+        }
+    }
+    footer {
+        @include footer-btn;
+        .log-txt {
+            color: $twilight-blue;
+            // font-family: $headline-font;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+        .blue-bg {
+            background-color: $twilight-blue;
+            height: 100%;
+            .sgn-txt {
+                color: $white;
+                // font-family: $headline-font;
+                font-size: 1.5em;
+                font-weight: 300;
+            }
         }
     }
 }
