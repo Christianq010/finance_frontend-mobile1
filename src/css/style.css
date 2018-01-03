@@ -8606,6 +8606,7 @@ body {
 */
 body .bg-phone {
   width: 100%;
+  height: 100%;
   right: 1.3em;
   margin: 0;
   padding: 2.5em;
@@ -8636,17 +8637,27 @@ body footer {
   bottom: 0;
   height: 5em; }
   body footer .log-txt {
-    color: #0e3c6e;
     font-size: 1.5em;
     font-weight: 300; }
+    body footer .log-txt a {
+      color: #0e3c6e;
+      text-decoration: none; }
+      body footer .log-txt a:hover {
+        color: #082341;
+        text-decoration: none; }
   body footer .blue-bg {
     background-color: #0e3c6e;
     height: 100%;
     border-top: solid 1px rgba(151, 151, 151, 0.5); }
     body footer .blue-bg .sgn-txt {
-      color: #ffffff;
       font-size: 1.5em;
       font-weight: 300; }
+      body footer .blue-bg .sgn-txt a {
+        color: #ffffff;
+        text-decoration: none; }
+        body footer .blue-bg .sgn-txt a:hover {
+          color: #4794e8;
+          text-decoration: none; }
 
 /* ----------- Import Components ---------*/
 *,
