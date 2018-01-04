@@ -4,24 +4,6 @@
 * --------------- Imports ------------------- | 
 *
 */
-/* ----------- Import partials ---------*/
-/* 
-.
-. --- Our Custom SCSS Functions ---- 
-.
-*/
-/* 
-.
-. --- Variables ---- 
-.
-*/
-/* 
-.
-. --- Mixins ---- 
-.
-*/
-/* ----------- Import Fonts ---------*/
-@import url(https://fonts.googleapis.com/css?family=HelveticaNeue+Sans);
 /* ----------- Import Dependencies ---------*/
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -30,6 +12,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=HelveticaNeue+Sans);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8451,229 +8434,23 @@ table {
   .codrops-icon span {
     display: none; } }
 
-/* ----------- Import Pages ---------*/
-/*
-*
-* --- Our Main Styles for Start Page--
-*
+/* ----------- Import partials ---------*/
+/* 
+.
+. --- Our Custom SCSS Functions ---- 
+.
 */
-/*
------ Main Content ----- 
+/* 
+.
+. --- Variables ---- 
+.
 */
-body .bgimg {
-  width: 100%;
-  height: 100%;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  z-index: -1; }
-
-body .main-logo img {
-  width: 8em;
-  height: 8em;
-  margin: 14em 1em 0 1em;
-  object-fit: contain; }
-
-body .main-font {
-  color: #ffffff; }
-  body .main-font h3 {
-    font-family: "HelveticaNeue-light";
-    font-size: 2.5em;
-    font-weight: 500;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
-  body .main-font p {
-    font-family: "HelveticaNeue", Georgia, serif;
-    font-size: 1.5em; }
-
-body .p-bottom {
-  color: #eef2f4;
-  font-size: 1em;
-  line-height: 1.3;
-  margin: 10% 0 0 0; }
-
-footer {
-  background-color: #eef2f4;
-  background: #eef2f4;
-  padding: 0;
-  margin: 2em 0 0 0;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  height: 4.5em; }
-  footer img {
-    width: 11em;
-    height: 5em;
-    object-fit: contain; }
-
-/*
-*
-* --- Our Main Styles for Sign-in Page--
-*
+/* 
+.
+. --- Mixins ---- 
+.
 */
-/*
------ Main Content ----- 
-*/
-body {
-  background-color: #eef1f4;
-  z-index: -1; }
-  body .online-id {
-    position: static;
-    margin: 25% 0 0 0; }
-    body .online-id input {
-      font-size: 1.3em;
-      color: #929497;
-      font-weight: 500;
-      font-family: "HelveticaNeue-light";
-      width: 100%;
-      background-color: #ffffff;
-      border-top: solid 1px rgba(151, 151, 151, 0.5);
-      border-bottom: solid 1px #979797;
-      padding: 1.5em 1em;
-      border-radius: 0px; }
-  body .main-content {
-    margin: 10% 0 0 0;
-    background-color: #ffffff;
-    border-top: solid 1px #979797; }
-    body .main-content .save-online-id {
-      padding: 1.2em 0 0 0;
-      background-color: white;
-      height: 6em; }
-      body .main-content .save-online-id p {
-        font-size: 1.3em;
-        color: #929497;
-        font-weight: 500;
-        font-family: "HelveticaNeue-light";
-        float: left;
-        margin: 1em; }
-      body .main-content .save-online-id span {
-        float: right;
-        margin: 1em; }
-        body .main-content .save-online-id span img {
-          margin: 0 0 0 0.5em; }
-    body .main-content hr {
-      border-top: solid 1px #979797;
-      width: 89%;
-      padding: 0;
-      margin: 0.2em 0 0 1.5em; }
-    body .main-content .use-touch-id {
-      position: relative;
-      padding: 1.5em 0 0 0;
-      height: 6em; }
-      body .main-content .use-touch-id p {
-        font-size: 1.3em;
-        color: #929497;
-        font-weight: 500;
-        font-family: "HelveticaNeue-light";
-        float: left;
-        margin: 1em; }
-      body .main-content .use-touch-id span {
-        float: right;
-        margin: 1em; }
-        body .main-content .use-touch-id span img {
-          margin: 0 0 0 0.5em; }
-    body .main-content .help-options {
-      margin: 1.3em 1.3em 1.5em 1.3em; }
-      body .main-content .help-options p .sign-in-help {
-        font-size: 1.15em;
-        color: #929497;
-        font-weight: 500;
-        font-family: "HelveticaNeue-light"; }
-      body .main-content .help-options p .blue-text {
-        font-size: 1.15em;
-        color: #1c89c7;
-        font-weight: 500;
-        font-family: "HelveticaNeue-light"; }
-    body .main-content button {
-      margin: 1.3em 1.3em 1em 1em;
-      width: 9.7em; }
-    body .main-content .p-bottom-normal {
-      color: #929497;
-      font-size: 0.9em;
-      line-height: 1.3;
-      margin: 0.5em 0 1em 0.5em;
-      padding: 0em 1em;
-      height: 10em; }
-
-/*
-*
-* --- Our Main Styles for Log in Page--
-*
-*/
-/*
------ Main Content ----- 
-*/
-body .bg-phone {
-  width: 100%;
-  height: 100%;
-  right: 1.3em;
-  /* margin: 0; */
-  padding: 5em;
-  position: relative;
-  top: 0;
-  z-index: -1; }
-
-body .content-card {
-  position: absolute;
-  top: 26em;
-  background-color: #0e3c6e;
-  height: 330px; }
-  body .content-card h3 {
-    padding: 0.5em 0 0 0; }
-  body .content-card p {
-    font-size: 1.3em;
-    color: #929497;
-    font-weight: 500;
-    font-family: "HelveticaNeue-light";
-    padding: 1em; }
-  body .content-card .circle .selected {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50px;
-    background: transparent;
-    border: solid 2px #ffffff; }
-  body .content-card .circle .not-selected {
-    display: inline-block;
-    margin: 0 0.3em 0.3em 0.3em;
-    width: 5px;
-    height: 5px;
-    border-radius: 50px;
-    background-color: #ffffff; }
-
-body footer {
-  background-color: #eef2f4;
-  background: #eef2f4;
-  padding: 0;
-  margin: 2em 0 0 0;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  height: 5em; }
-  body footer .log-txt {
-    font-size: 1.5em;
-    font-weight: 300; }
-    body footer .log-txt a {
-      color: #0e3c6e;
-      text-decoration: none; }
-      body footer .log-txt a:hover {
-        color: #082341;
-        text-decoration: none; }
-  body footer .blue-bg {
-    background-color: #0e3c6e;
-    height: 100%;
-    border-top: solid 1px rgba(151, 151, 151, 0.5); }
-    body footer .blue-bg .sgn-txt {
-      font-size: 1.5em;
-      font-weight: 300; }
-      body footer .blue-bg .sgn-txt a {
-        color: #ffffff;
-        text-decoration: none; }
-        body footer .blue-bg .sgn-txt a:hover {
-          color: #4794e8;
-          text-decoration: none; }
-
+/* ----------- Import Fonts ---------*/
 /* ----------- Import Components ---------*/
 *,
 *:after,
@@ -8954,6 +8731,11 @@ input.gn-search:focus {
   .gn-menu-wrapper.gn-open-all .gn-scroller {
     width: 130%; } }
 
+/*
+*
+* --- Log in Page - iPhone Slider Image Styles --
+*
+*/
 /* ----------- Import modules ---------*/
 /* =====================================================
    Button - Styles
@@ -8969,6 +8751,228 @@ input.gn-search:focus {
   border-radius: 0px;
   font-family: "HelveticaNeue-light";
   font-weight: 500; }
+
+/* ----------- Import Pages ---------*/
+/*
+*
+* --- Our Main Styles for Start Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body .bgimg {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: -1; }
+
+body .main-logo img {
+  width: 8em;
+  height: 8em;
+  margin: 14em 1em 0 1em;
+  object-fit: contain; }
+
+body .main-font {
+  color: #ffffff; }
+  body .main-font h3 {
+    font-family: "HelveticaNeue-light";
+    font-size: 2.5em;
+    font-weight: 500;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+  body .main-font p {
+    font-family: "HelveticaNeue", Georgia, serif;
+    font-size: 1.5em; }
+
+body .p-bottom {
+  color: #eef2f4;
+  font-size: 1em;
+  line-height: 1.3;
+  margin: 10% 0 0 0; }
+
+footer {
+  background-color: #eef2f4;
+  background: #eef2f4;
+  padding: 0;
+  margin: 2em 0 0 0;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  height: 4.5em; }
+  footer img {
+    width: 11em;
+    height: 5em;
+    object-fit: contain; }
+
+/*
+*
+* --- Our Main Styles for Sign-in Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body {
+  background-color: #eef1f4;
+  z-index: -1; }
+  body .online-id {
+    position: static;
+    margin: 25% 0 0 0; }
+    body .online-id input {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light";
+      width: 100%;
+      background-color: #ffffff;
+      border-top: solid 1px rgba(151, 151, 151, 0.5);
+      border-bottom: solid 1px #979797;
+      padding: 1.5em 1em;
+      border-radius: 0px; }
+  body .main-content {
+    margin: 10% 0 0 0;
+    background-color: #ffffff;
+    border-top: solid 1px #979797; }
+    body .main-content .save-online-id {
+      padding: 1.2em 0 0 0;
+      background-color: white;
+      height: 6em; }
+      body .main-content .save-online-id p {
+        font-size: 1.3em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light";
+        float: left;
+        margin: 1em; }
+      body .main-content .save-online-id span {
+        float: right;
+        margin: 1em; }
+        body .main-content .save-online-id span img {
+          margin: 0 0 0 0.5em; }
+    body .main-content hr {
+      border-top: solid 1px #979797;
+      width: 89%;
+      padding: 0;
+      margin: 0.2em 0 0 1.5em; }
+    body .main-content .use-touch-id {
+      position: relative;
+      padding: 1.5em 0 0 0;
+      height: 6em; }
+      body .main-content .use-touch-id p {
+        font-size: 1.3em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light";
+        float: left;
+        margin: 1em; }
+      body .main-content .use-touch-id span {
+        float: right;
+        margin: 1em; }
+        body .main-content .use-touch-id span img {
+          margin: 0 0 0 0.5em; }
+    body .main-content .help-options {
+      margin: 1.3em 1.3em 1.5em 1.3em; }
+      body .main-content .help-options p .sign-in-help {
+        font-size: 1.15em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light"; }
+      body .main-content .help-options p .blue-text {
+        font-size: 1.15em;
+        color: #1c89c7;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light"; }
+    body .main-content button {
+      margin: 1.3em 1.3em 1em 1em;
+      width: 9.7em; }
+    body .main-content .p-bottom-normal {
+      color: #929497;
+      font-size: 0.9em;
+      line-height: 1.3;
+      margin: 0.5em 0 1em 0.5em;
+      padding: 0em 1em;
+      height: 10em; }
+
+/*
+*
+* --- Our Main Styles for Log in Page--
+*
+*/
+/*
+----- Main Content ----- 
+*/
+body .bg-phone {
+  width: 100%;
+  height: 100%;
+  right: 1.3em;
+  padding: 5em;
+  position: relative;
+  top: 0;
+  z-index: -1; }
+
+body .content-card {
+  position: absolute;
+  top: 26em;
+  background-color: #0e3c6e;
+  height: 330px; }
+  body .content-card h3 {
+    padding: 0.5em 0 0 0; }
+  body .content-card p {
+    font-size: 1.3em;
+    color: #929497;
+    font-weight: 500;
+    font-family: "HelveticaNeue-light";
+    padding: 1em; }
+  body .content-card .circle .selected {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: transparent;
+    border: solid 2px #ffffff; }
+  body .content-card .circle .not-selected {
+    display: inline-block;
+    margin: 0 0.3em 0.3em 0.3em;
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #ffffff; }
+
+body footer {
+  background-color: #eef2f4;
+  background: #eef2f4;
+  padding: 0;
+  margin: 2em 0 0 0;
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  height: 5em; }
+  body footer .log-txt {
+    font-size: 1.5em;
+    font-weight: 300; }
+    body footer .log-txt a {
+      color: #0e3c6e;
+      text-decoration: none; }
+      body footer .log-txt a:hover {
+        color: #082341;
+        text-decoration: none; }
+  body footer .blue-bg {
+    background-color: #0e3c6e;
+    height: 100%;
+    border-top: solid 1px rgba(151, 151, 151, 0.5); }
+    body footer .blue-bg .sgn-txt {
+      font-size: 1.5em;
+      font-weight: 300; }
+      body footer .blue-bg .sgn-txt a {
+        color: #ffffff;
+        text-decoration: none; }
+        body footer .blue-bg .sgn-txt a:hover {
+          color: #4794e8;
+          text-decoration: none; }
 
 /*
 *

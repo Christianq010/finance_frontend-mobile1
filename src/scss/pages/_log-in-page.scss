@@ -12,44 +12,14 @@
 body {
     // Background Image 
     .bg-phone {
-        width: 100%;
-        height: 100%;
-        right: 1.3em;
-        padding: 5em;
-        position: relative;
-        top: 0;
-        z-index: -1;
+        @include iphone-img;
     }
+    // Blue Content Card
     .content-card {
-        position: absolute;
-        top: 26em;
-        background-color: $twilight-blue;
-        height: 330px;
-        h3 {
-            padding: 0.5em 0 0 0;
-        }
-        p {
-            @include standard-text;
-            padding: 1em;
-        }
-        // Image Slider Shapes
+        @include blue-content-card;
+        // Image Slider Icons/shapes
         .circle {
-            .selected {
-                display: inline-block;
-                width: 15px;
-                height: 15px;
-                border-radius: 50px;
-                background: transparent;
-                border: solid 2px $white;
-            }
-            .not-selected {
-                display: inline-block;
-                margin: 0 0.3em 0.3em 0.3em;
-                width: 5px;
-                height: 5px;
-                border-radius: 50px;
-                background-color: $white;
-            }
+            @include circle-shapes;
         }
     }
     footer {

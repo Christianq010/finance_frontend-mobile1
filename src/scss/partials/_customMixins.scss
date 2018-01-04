@@ -92,18 +92,6 @@
     }
 }
 
-// Footer button Styles
-@mixin footer-btn {
-    background-color: $pale-grey;
-    background: $pale-grey;
-    padding: 0;
-    margin: 2em 0 0 0;
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    height: 5em;
-}
-
 // Style our hover <a> links
 @mixin lighten-links {
     text-decoration: none;

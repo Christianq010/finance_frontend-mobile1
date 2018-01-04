@@ -1,0 +1,63 @@
+/*
+*
+* --- Log in Page - iPhone Slider Image Components/Mixins --
+*
+*/
+
+// iPhone Image (Background Image)
+@mixin iphone-img {
+    width: 100%;
+    height: 100%;
+    right: 1.3em;
+    padding: 5em;
+    position: relative;
+    top: 0;
+    z-index: -1;
+}
+
+// Content Card
+@mixin blue-content-card {
+    position: absolute;
+    top: 26em;
+    background-color: $twilight-blue;
+    height: 330px;
+    h3 {
+        padding: 0.5em 0 0 0;
+    }
+    p {
+        @include standard-text;
+        padding: 1em;
+    }
+}
+
+// Image Slider Shapes
+@mixin circle-shapes {
+    .selected {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background: transparent;
+        border: solid 2px $white;
+    }
+    .not-selected {
+        display: inline-block;
+        margin: 0 0.3em 0.3em 0.3em;
+        width: 5px;
+        height: 5px;
+        border-radius: 50px;
+        background-color: $white;
+    }
+}
+
+// Footer button Styles
+@mixin footer-btn {
+    background-color: $pale-grey;
+    background: $pale-grey;
+    padding: 0;
+    margin: 2em 0 0 0;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    height: 5em;
+}
