@@ -8635,8 +8635,9 @@ body .content-card {
     border: solid 2px #ffffff; }
   body .content-card .circle .not-selected {
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    margin: 0 0.3em 0.3em 0.3em;
+    width: 5px;
+    height: 5px;
     border-radius: 50px;
     background-color: #ffffff; }
 
