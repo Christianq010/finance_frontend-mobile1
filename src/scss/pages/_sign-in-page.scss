@@ -80,12 +80,8 @@ body {
             width: 9.7em;
         }
         .p-bottom-normal {
-            color: $cool-grey;
-            font-size: 0.9em;
-            line-height: 1.3;
+            @include footer-p;
             margin: 0.5em 0 1em 0.5em;
-            padding: 0em 1em;
-            height: 10em;
         }
     }
 }

@@ -40,20 +40,6 @@
     object-fit: contain;
 }
 
-@mixin warning {
-    background-color: orange;
-    color: #fff;
-    &:hover {
-        background-color: lighten(orange, 10%);
-    }
-}
-
-@mixin box-shadow($shadow...) {
-    box-shadow: $shadow;
-    -moz-box-shadow: $shadow;
-    -webkit-box-shadow: $shadow;
-}
-
 // Font Styles
 @mixin standard-text {
     font-size: 1.3em;
@@ -117,6 +103,32 @@
     border-bottom: none;
 }
 
+// Our standard TM footer p on Sign in pages
+@mixin footer-p {
+    color: $cool-grey;
+    font-size: 0.9em;
+    line-height: 1.3;
+    padding: 0em 1em;
+    height: 10em;
+}
+
+// --------------------------------- end -------------------------- //
+// 
+@mixin warning {
+    background-color: orange;
+    color: #fff;
+    &:hover {
+        background-color: lighten(orange, 10%);
+    }
+}
+
+@mixin box-shadow($shadow...) {
+    box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -webkit-box-shadow: $shadow;
+}
+
+// 
 // Just default a tag styling
 @mixin default-links {
     a {
