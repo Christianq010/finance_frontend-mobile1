@@ -30,4 +30,9 @@ body {
             border-bottom: solid 0.3px $warm-grey;
         }
     }
+    // footer
+    .p-bottom-end {
+        @include footer-p;
+        margin-top: 5.5em;
+    }
 }

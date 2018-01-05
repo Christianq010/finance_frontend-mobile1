@@ -8893,9 +8893,9 @@ body {
       color: #929497;
       font-size: 0.9em;
       line-height: 1.3;
-      margin: 0.5em 0 1em 0.5em;
       padding: 0em 1em;
-      height: 10em; }
+      height: 10em;
+      margin: 0.5em 0 1em 0.5em; }
 
 /*
 *
@@ -8925,6 +8925,13 @@ body {
       background-size: 0.8em;
       border-bottom: none;
       border-bottom: solid 0.3px #979797; }
+  body .p-bottom-end {
+    color: #929497;
+    font-size: 0.9em;
+    line-height: 1.3;
+    padding: 0em 1em;
+    height: 10em;
+    margin-top: 5.5em; }
 
 /*
 *
