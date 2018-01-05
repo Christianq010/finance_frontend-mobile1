@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>Finance | Sign-in page 2</title>
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="vendor/modernizr.custom.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <!-- Main Container -->
+        <div class="container row">
+
+            <!-- Navbar -->
+            <ul id="gn-menu" class="gn-menu-main row">
+                <!-- Hamburger menu -->
+                <li class="gn-trigger">
+                    <a class="gn-icon gn-icon-menu">
+                        <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+                        <span>Menu</span>
+                    </a>
+                    <nav class="gn-menu-wrapper">
+                        <!-- gn-scroller (hamburger menu content) -->
+                        <div class="gn-scroller">
+                            <ul class="gn-menu">
+                                <li class="gn-search-item">
+                                    <input placeholder="Search" type="search" class="gn-search">
+                                    <a class="gn-icon gn-icon-search"><span>Search</span></a>
+                                </li>
+                                <li>
+                                    <a class="gn-icon gn-icon-download">Downloads</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
+                                        <li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="gn-icon gn-icon-cog">Settings</a></li>
+                                <li><a class="gn-icon gn-icon-help">Help</a></li>
+                                <li>
+                                    <a class="gn-icon gn-icon-archive">Archives</a>
+                                    <ul class="gn-submenu">
+                                        <li><a class="gn-icon gn-icon-article">Articles</a></li>
+                                        <li><a class="gn-icon gn-icon-pictures">Images</a></li>
+                                        <li><a class="gn-icon gn-icon-videos">Videos</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /gn-scroller - hamburger menu content-->
+                    </nav>
+                </li>
+                <!-- /end of Hamburger Menu content -->
+                <li class="sign-in text-center">
+                    <h3 class="header-txt">Sign In</h3>
+                </li>
+            </ul>
+            <!-- /end of Navbar -->
+        </div>
+        <!-- /container -->
+    </header>
+
+    <!-- Online ID container-fluid -->
+    <div class="container-fluid">
+        <!-- Online ID -->
+        <section class="online-id-input">
+            <div class="row">
+
+                <!-- Input fields -->
+                <div class="col-sm-12 input-name">
+                    <input class="form-control input-1 text-left" type="text" name="onlineID" placeholder="Jeffromi*****">
+                </div>
+                <div class="col-sm-12">
+                    <input class="form-control input-2 text-left" type="text" name="onlineID" placeholder="Use a Different Online ID">
+                </div>
+                <!-- /end of Input fields -->
+
+            </div>
+            <!-- /end of row -->
+        </section>
+        <!-- /end of Enter Online ID -->
+
+        <!-- Main Content Section -->
+        <section class="main-content">
+
+            <!-- Save Online ID row -->
+            <div class="save-online-id">
+                <p class="text-left">Save this Online ID</p>
+                <span class="toggle-box"><img width="23" height="27" src="icons/btn-switch.svg"></span>
+            </div>
+            <!-- /end of row -->
+
+            <hr>
+
+            <!-- Use Touch ID row -->
+            <div class="use-touch-id">
+                <p class="text-left">Use Touch ID</p>
+                <span class="toggle-box"><img width="23" height="27" src="icons/btn-switch.svg"></span>
+            </div>
+            <!-- /end of row -->
+
+            <!-- Sign in Help Option content-->
+            <div class="help-options">
+                <p class=""><a href="#" class="sign-in-help">Sign In Help Option</a></p>
+                <p class=""><a href="#" class="blue-text">Enroll in Online & Mobile Banking</a></p>
+                <p class=""><a href="#" class="blue-text">Forgot your Passcode?</a></p>
+                <p class=""><a href="#" class="blue-text">Forgot your Online ID?</a></p>
+            </div>
+            <!-- /end of Sign in Help Option content-->
+
+            <!-- Bottom Paragraph -->
+            <div class="p-bottom-normal text-left">
+                <p>©2014 Mobile Banking Corpotation. All rights reserved. Mobile Banking N.A Member FDIC. Equal Housing Lender.</p>
+            </div>
+            <!-- /end of Bottom Paragraph -->
+
+
+        </section>
+        <!-- /end of Main Content Section -->
+
+    </div>
+    <!-- /end of container-fluid -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Javascript for Hamburger Menu -->
+    <script src="vendor/classie.js"></script>
+    <script src="vendor/gnmenu.js"></script>
+    <script>
+        new gnMenu(document.getElementById('gn-menu'));
+    </script>
+</body>
+
+</html>

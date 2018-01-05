@@ -109,6 +109,14 @@
     }
 }
 
+@mixin arrow-icon {
+    background-image: url(../../icons/arrow-right.svg);
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    background-size: 0.8em;
+    border-bottom: none;
+}
+
 // Just default a tag styling
 @mixin default-links {
     a {

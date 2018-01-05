@@ -8474,7 +8474,7 @@ ul li h3 {
   font-weight: 500;
   font-family: "HelveticaNeue-light";
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  margin: 1em 6.3em; }
+  margin: 1em 7.3em; }
 
 .gn-icon-menu img {
   width: 2.5em;
@@ -8733,7 +8733,7 @@ input.gn-search:focus {
 
 /*
 *
-* --- Log in Page - iPhone Slider Image Styles --
+* --- Log in Page - iPhone Slider Image Components/Mixins --
 *
 */
 /* ----------- Import modules ---------*/
@@ -8819,10 +8819,10 @@ footer {
 body {
   background-color: #eef1f4;
   z-index: -1; }
-  body .online-id {
+  body .online-id, body .online-id-input {
     position: static;
     margin: 25% 0 0 0; }
-    body .online-id input {
+    body .online-id input, body .online-id-input input {
       font-size: 1.3em;
       color: #929497;
       font-weight: 500;
@@ -8896,6 +8896,35 @@ body {
       margin: 0.5em 0 1em 0.5em;
       padding: 0em 1em;
       height: 10em; }
+
+/*
+*
+* --- Our Main Styles for Sign-in Page 2--
+*
+*/
+/*
+----- Main Content Inherited from Sign In Page 01 ----- 
+*/
+body {
+  background-color: #eef1f4;
+  z-index: -1; }
+  body .online-id-input {
+    background-color: #ffffff; }
+    body .online-id-input .input-name {
+      border-top: solid 0.3px #979797; }
+      body .online-id-input .input-name input.input-1 {
+        background-image: url(../../icons/arrow-right.svg);
+        background-position: 95% 50%;
+        background-repeat: no-repeat;
+        background-size: 0.8em;
+        border-bottom: none; }
+    body .online-id-input .input-2 {
+      background-image: url(../../icons/arrow-right.svg);
+      background-position: 95% 50%;
+      background-repeat: no-repeat;
+      background-size: 0.8em;
+      border-bottom: none;
+      border-bottom: solid 0.3px #979797; }
 
 /*
 *

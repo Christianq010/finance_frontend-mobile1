@@ -1,0 +1,33 @@
+/*
+*
+* --- Our Main Styles for Sign-in Page 2--
+*
+*/
+
+
+/*
+----- Main Content Inherited from Sign In Page 01 ----- 
+*/
+
+body {
+    background-color: $pale-grey-two;
+    z-index: -1;
+    .online-id-input {
+        @extend .online-id;
+        background-color: $white;
+        .input-name {
+            border-top: solid 0.3px $warm-grey;
+            input.input-1 {
+                @include arrow-icon;
+            }
+            // Hide if input clicked
+            .input-1:active {
+                // background-image: none;
+            }
+        }
+        .input-2 {
+            @include arrow-icon;
+            border-bottom: solid 0.3px $warm-grey;
+        }
+    }
+}
