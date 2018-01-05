@@ -8910,6 +8910,14 @@ body {
   z-index: -1; }
   body .online-id-input {
     background-color: #ffffff; }
+    body .online-id-input .input-p {
+      background-color: #eef1f4; }
+      body .online-id-input .input-p p {
+        font-size: 1.3em;
+        color: #929497;
+        font-weight: 500;
+        font-family: "HelveticaNeue-light";
+        padding-left: 8%; }
     body .online-id-input .input-name {
       border-top: solid 0.3px #979797; }
       body .online-id-input .input-name input.input-1 {
@@ -8931,7 +8939,7 @@ body {
     line-height: 1.3;
     padding: 0em 1em;
     height: 10em;
-    margin-top: 5.5em; }
+    margin-top: 15%; }
 
 /*
 *
