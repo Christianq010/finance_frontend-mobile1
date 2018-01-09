@@ -9,9 +9,33 @@
     border: solid 1px rgba(151, 151, 151, 0.5);
 }
 
-.lg-blue-btn {
-    background-color: $light-navy-three;
+.btn-size-avg {
     border-radius: 0px;
     font-family: $text-font;
     font-weight: 500;
+    border: none;
+}
+
+.btn-font {
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: $text-font;
+}
+
+.lg-blue-btn {
+    @extend .btn-size-avg;
+    @extend .btn-font;
+    color: $white;
+    background-color: $light-navy-three;
+}
+
+.lg-white-btn {
+    @extend .btn-size-avg;
+    @extend .btn-font;
+    color: $cool-grey;
+    background-color: $white;
+}
+
+.btn-medium {
+    width: 44%;
 }
