@@ -8831,13 +8831,25 @@ body {
       color: #1c89c7;
       font-weight: 500;
       font-family: "HelveticaNeue-light"; }
-  body .passcode-input {
+  body .passcode-p-two {
     padding-left: 2.5em; }
-    body .passcode-input p {
+    body .passcode-p-two p {
       font-size: 1.15em;
       color: #1c89c7;
       font-weight: 500;
       font-family: "HelveticaNeue-light"; }
+  body .input-passcode {
+    padding: 1em;
+    margin: 0.2em 0.5em; }
+    body .input-passcode input {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light";
+      background-color: #ffffff;
+      width: 95%;
+      border-radius: 0.2em;
+      border: solid 1px rgba(151, 151, 151, 0.5); }
 
 /*
 *
