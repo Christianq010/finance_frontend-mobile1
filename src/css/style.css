@@ -8830,7 +8830,7 @@ body {
   z-index: -1; }
   body .passcode-section {
     position: static;
-    margin: 10% 0 0 0; }
+    margin: 0; }
     body .passcode-section p {
       font-size: 1.3em;
       color: #929497;
