@@ -14,7 +14,7 @@ body {
     z-index: -1;
     .online-id {
         position: static;
-        margin: 25% 0 0 0;
+        margin: 8% 0 0 0;
         input {
             @include standard-text;
             width: 100%;
@@ -26,7 +26,7 @@ body {
         }
     }
     .main-content {
-        margin: 10% 0 0 0;
+        margin: 5% 0 0 0;
         background-color: $white;
         border-top: solid 1px rgb(151, 151, 151);
         .save-online-id {
@@ -81,7 +81,7 @@ body {
         }
         .p-bottom-normal {
             @include footer-p;
-            margin: 0.5em 0 1em 0.5em;
+            margin: 0.5em 0 1em 4%;
         }
     }
 }

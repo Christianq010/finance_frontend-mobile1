@@ -8452,10 +8452,20 @@ table {
 */
 /* ----------- Import Fonts ---------*/
 /* ----------- Import Components ---------*/
+header .navbar .gn-icon-menu {
+  position: absolute;
+  float: left;
+  z-index: 2;
+  padding: 2em 1em;
+  margin: 0.2em 0; }
+  header .navbar .gn-icon-menu img {
+    width: 2.2em;
+    height: 2em; }
+
 header .navbar ul {
   display: inline;
   list-style-type: none;
-  padding: 2em;
+  padding: 1em;
   overflow: hidden;
   background-color: #023365;
   position: fixed;
@@ -8467,16 +8477,11 @@ header .navbar ul {
       display: inline-block;
       background: #023365;
       color: #ffffff;
-      font-size: 1.5em;
+      font-size: 1.3em;
       font-weight: 500;
-      font-family: "HelveticaNeue-light";
+      font-family: "HelveticaNeue", Georgia, serif;
       text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-      margin: 0; }
-    header .navbar ul li .gn-icon-menu {
-      float: left; }
-      header .navbar ul li .gn-icon-menu img {
-        width: 2.5em;
-        height: 2em; }
+      margin: 0.2em 0 0 0; }
 
 /*
 *
@@ -8584,7 +8589,7 @@ body {
   z-index: -1; }
   body .online-id, body .online-id-input {
     position: static;
-    margin: 25% 0 0 0; }
+    margin: 8% 0 0 0; }
     body .online-id input, body .online-id-input input {
       font-size: 1.3em;
       color: #929497;
@@ -8597,7 +8602,7 @@ body {
       padding: 1.5em 1em;
       border-radius: 0px; }
   body .main-content {
-    margin: 10% 0 0 0;
+    margin: 5% 0 0 0;
     background-color: #ffffff;
     border-top: solid 1px #979797; }
     body .main-content .save-online-id {
@@ -8658,7 +8663,7 @@ body {
       line-height: 1.3;
       margin-left: 4%;
       height: 10em;
-      margin: 0.5em 0 1em 0.5em; }
+      margin: 0.5em 0 1em 4%; }
 
 /*
 *
