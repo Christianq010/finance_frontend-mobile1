@@ -8493,11 +8493,27 @@ header .navbar ul {
   background-color: #ffffff;
   border: solid 1px rgba(151, 151, 151, 0.5); }
 
-.lg-blue-btn {
-  background-color: #104072;
+.btn-size-avg, .lg-blue-btn, .lg-white-btn {
   border-radius: 0px;
   font-family: "HelveticaNeue-light";
-  font-weight: 500; }
+  font-weight: 500;
+  border: none; }
+
+.btn-font, .lg-blue-btn, .lg-white-btn {
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: "HelveticaNeue-light"; }
+
+.lg-blue-btn {
+  color: #ffffff;
+  background-color: #104072; }
+
+.lg-white-btn {
+  color: #929497;
+  background-color: #ffffff; }
+
+.btn-medium {
+  width: 44%; }
 
 /* ----------- Import Pages ---------*/
 /*
@@ -8640,7 +8656,7 @@ body {
       color: #929497;
       font-size: 0.9em;
       line-height: 1.3;
-      padding: 0em 1em;
+      margin-left: 4%;
       height: 10em;
       margin: 0.5em 0 1em 0.5em; }
 
@@ -8684,7 +8700,7 @@ body {
     color: #929497;
     font-size: 0.9em;
     line-height: 1.3;
-    padding: 0em 1em;
+    margin-left: 4%;
     height: 10em;
     margin-top: 15%; }
 
@@ -8850,6 +8866,19 @@ body {
       width: 95%;
       border-radius: 0.2em;
       border: solid 1px rgba(151, 151, 151, 0.5); }
+  body .button-group {
+    margin-left: 4%;
+    margin-top: 25%; }
+    body .button-group button {
+      padding: 0.7em 3em;
+      margin-right: 1em; }
+  body .p-bottom-end-2 {
+    color: #929497;
+    font-size: 0.9em;
+    line-height: 1.3;
+    margin-left: 4%;
+    height: 10em;
+    margin-top: 5%; }
 
 /*
 *
