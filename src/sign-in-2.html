@@ -27,7 +27,7 @@
 
             <!-- Navbar -->
             <!-- Hamburger menu -->
-            <a class="gn-icon gn-icon-menu" href="#">
+            <a class="gn-icon gn-icon-menu" href="#" onclick="openNav()">
                 <img src="icons/hamburger-menu.svg" class="hamburger-menu">
             </a>
             <!-- Main Nav H3 -->
@@ -40,6 +40,17 @@
 
         </div>
         <!-- /end of Header container -->
+
+        <!-- Navbar Contents -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <!--/end of Navbar Contents -->
+
     </header>
 
     <!-- Online ID container-fluid -->
@@ -111,11 +122,8 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Javascript for Hamburger Menu -->
-    <script src="vendor/classie.js"></script>
-    <script src="vendor/gnmenu.js"></script>
-    <script>
-        new gnMenu(document.getElementById('gn-menu'));
-    </script>
+    <script src="vendor/main.js"></script>
+
 </body>
 
 </html>

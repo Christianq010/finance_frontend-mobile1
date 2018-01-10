@@ -8460,7 +8460,8 @@ header .navbar .gn-icon-menu {
   margin: 0.2em 0; }
   header .navbar .gn-icon-menu img {
     width: 2.2em;
-    height: 2em; }
+    height: 2em;
+    cursor: pointer; }
 
 header .navbar ul {
   display: inline;
@@ -8482,6 +8483,36 @@ header .navbar ul {
       font-family: "HelveticaNeue", Georgia, serif;
       text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
       margin: 0.2em 0 0 0; }
+
+header .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+
+header .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+header .sidenav a:hover {
+  color: #f1f1f1; }
+
+header .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
 
 /*
 *
