@@ -8491,28 +8491,40 @@ header .sidenav {
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #eef1f4;
+  border-right: solid 3px #ebebeb;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px; }
-
-header .sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s; }
-
-header .sidenav a:hover {
-  color: #f1f1f1; }
-
-header .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px; }
+  header .sidenav a {
+    font-size: 1.3em;
+    color: #929497;
+    font-weight: 500;
+    font-family: "HelveticaNeue-light";
+    font-size: 1.30em;
+    color: #023365;
+    padding: 1em 0 1em 1em;
+    display: block;
+    transition: 0.3s;
+    border-bottom: solid 0.3px #979797; }
+  header .sidenav a:hover {
+    color: #f1f1f1; }
+  header .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px; }
+  header .sidenav .nav-content {
+    background-color: #ffffff;
+    border-top: solid 0.1px #979797;
+    border-right: solid 3px #ebebeb; }
+  header .sidenav hr {
+    width: 100%;
+    height: 1em;
+    opacity: 0.8;
+    background-color: #ebebeb;
+    margin: 0; }
 
 /*
 *
