@@ -8492,7 +8492,6 @@ header .sidenav {
   top: 0;
   left: 0;
   background-color: #eef1f4;
-  border-right: solid 3px #ebebeb;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px; }
@@ -8506,9 +8505,11 @@ header .sidenav {
     padding: 1em 0 1em 1em;
     display: block;
     transition: 0.3s;
-    border-bottom: solid 0.3px #979797; }
-  header .sidenav a:hover {
-    color: #f1f1f1; }
+    border-bottom: solid 0.3px #979797;
+    text-decoration: none; }
+    header .sidenav a:hover {
+      color: #4794e8;
+      text-decoration: none; }
   header .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -8516,9 +8517,11 @@ header .sidenav {
     font-size: 36px;
     margin-left: 50px; }
   header .sidenav .nav-content {
+    padding-left: 1.4em;
     background-color: #ffffff;
     border-top: solid 0.1px #979797;
-    border-right: solid 3px #ebebeb; }
+    border-right: solid 3px #ebebeb;
+    box-shadow: 10px 70px 31px 0px black; }
   header .sidenav hr {
     width: 100%;
     height: 1em;

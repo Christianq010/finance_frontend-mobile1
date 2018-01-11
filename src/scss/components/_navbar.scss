@@ -58,9 +58,8 @@ header {
             display: block;
             transition: 0.3s;
             border-bottom: solid 0.3px $warm-grey;
-        }
-        & a:hover {
-            color: #f1f1f1;
+            // Hover
+            @include lighten-links;
         }
         .closebtn {
             position: absolute;
@@ -70,10 +69,11 @@ header {
             margin-left: 50px;
         }
         .nav-content {
+            padding-left: 1.4em;
             background-color: $white;
             border-top: solid 0.1px $warm-grey;
             border-right: solid 3px $shadow-grey;
-            // box-shadow: 5px 4px 5px 6px $shadow-grey;
+            box-shadow: 10px 70px 31px 0px rgba(0, 0, 0, 1);
         }
         hr {
             width: 100%;
