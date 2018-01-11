@@ -27,7 +27,7 @@
 
             <!-- Navbar -->
             <!-- Hamburger menu -->
-            <a class="gn-icon gn-icon-menu" href="#">
+            <a class="gn-icon gn-icon-menu" href="#" onclick="openNav()">
                 <img src="icons/hamburger-menu.svg" class="hamburger-menu">
             </a>
             <!-- Main Nav H3 -->
@@ -40,6 +40,28 @@
 
         </div>
         <!-- /end of Header container -->
+
+        <!-- Navbar Contents -->
+        <div id="mySidenav" class="sidenav">
+            <div class="nav-content">
+                <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+                <a href="#">Accounts</a>
+                <a href="#">Bill Pay</a>
+                <a href="#">Transfer Money</a>
+                <a href="#">Deposit Checks</a>
+                <a href="#">MobileBankDeals®</a>
+                <a href="#">Alerts</a>
+                <hr>
+                <a href="#">Help & Support</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Locations</a>
+                <a href="#">Profile & Settings</a>
+                <hr>
+                <a href="#">Send App Feedback</a>
+            </div>
+        </div>
+        <!--/end of Navbar Contents -->
+
     </header>
 
 
@@ -102,9 +124,9 @@
     <!-- Javascript for Hamburger Menu -->
     <script src="vendor/classie.js"></script>
     <script src="vendor/gnmenu.js"></script>
-    <script>
-        new gnMenu(document.getElementById('gn-menu'));
-    </script>
+    <!-- Javascript for Hamburger Menu -->
+    <script src="vendor/main.js"></script>
+
 </body>
 
 </html>
