@@ -8977,18 +8977,20 @@ body {
             float: left;
             margin: 1em;
             font-size: 1.2em;
-            margin: 1em 0; }
+            margin: 1em 0;
+            width: 80%; }
           body .main-account-content ul li .account-list span {
             float: right;
             margin: 1.5em 1em;
             border: none; }
             body .main-account-content ul li .account-list span img {
-              margin: 1.5em 0 0 3.5em; }
+              margin-top: 2em;
+              background-color: transparent; }
           body .main-account-content ul li .account-list h4 {
             font-size: 1.8em;
             font-family: "HelveticaNeue-light";
             color: #76AD68;
-            margin: 0 0 1em 0; }
+            margin: 0 5em 1em 0; }
       body .main-account-content ul .not-available p,
       body .main-account-content ul .not-available h4 {
         opacity: 0.5; }
