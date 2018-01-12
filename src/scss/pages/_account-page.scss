@@ -83,4 +83,31 @@ body {
             }
         }
     }
+    .savings-account {
+        width: 100%;
+        height: 5em;
+        position: static;
+        margin: 4% 0 0 0;
+        background-color: $white;
+        border: solid 1px rgb(151, 151, 151);
+        .savings-account-p {
+            margin: 1.5em 0;
+            p {
+                font-size: 1.2em;
+                color: $cerulean;
+                span {
+                    img {
+                        margin: 0.1em 1em 0 0;
+                        width: 1.7em;
+                    }
+                }
+            }
+        }
+    }
+    // footer
+    .p-bottom-end-account {
+        @include footer-p;
+        margin-top: 10%;
+        height: 0;
+    }
 }
