@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="10_Account-Detail-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-27.000000, -77.000000)">
+        <g id="arrow-back" transform="translate(27.000000, 77.000000)" fill="#FFFFFF">
+            <polygon id="Shape" points="50 21.875 11.875 21.875 29.375 4.375 25 0 0 25 25 50 29.375 45.625 11.875 28.125 50 28.125"></polygon>
+        </g>
+    </g>
+</svg>
