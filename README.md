@@ -16,6 +16,16 @@ The project file for this Sketch Mockup can be found [here](https://www.sketchap
 
 ### Deployed
 Deployed via [Surge](https://surge.sh/) at https://finance-mobile.surge.sh/
+* Start page - https://finance-mobile.surge.sh/
+* Sign In page 1 -  https://finance-mobile.surge.sh/sign-in.html
+* Sign In page 3 -  https://finance-mobile.surge.sh/sign-in-2.html
+* Sign In page 3 -  https://finance-mobile.surge.sh/sign-in-3.html
+* Log In page 1 -  https://finance-mobile.surge.sh/log-in.html
+* Log In page 2 -  https://finance-mobile.surge.sh/log-in-2.html
+* Log In page 3 -  https://finance-mobile.surge.sh/log-in-3.html
+* Password page - https://finance-mobile.surge.sh/password-page.html
+* Account page - https://finance-mobile.surge.sh/account-page.html
+* Account Details page - https://finance-mobile.surge.sh/account-details.html
 
 
 ## Installation
