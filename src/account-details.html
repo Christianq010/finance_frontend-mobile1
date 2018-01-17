@@ -27,7 +27,7 @@
 
             <!-- Navbar -->
             <!-- Arrow Icon -->
-            <a class="gn-icon gn-icon-menu" href="#" onclick="openNav()">
+            <a class="gn-icon gn-icon-menu" href="account-page.html">
                 <img src="icons/arrow-left.svg" class="hamburger-menu">
             </a>
             <!-- Main Nav H3 -->
@@ -41,27 +41,6 @@
         </div>
         <!-- /end of Header container -->
 
-        <!-- Navbar Contents -->
-        <div id="mySidenav" class="sidenav">
-            <div class="nav-content">
-                <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
-                <a href="#">Accounts</a>
-                <a href="#">Bill Pay</a>
-                <a href="#">Transfer Money</a>
-                <a href="#">Deposit Checks</a>
-                <a href="#">MobileBankDeals®</a>
-                <a href="#">Alerts</a>
-                <hr>
-                <a href="#">Help & Support</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Locations</a>
-                <a href="#">Profile & Settings</a>
-                <hr>
-                <a href="#">Send App Feedback</a>
-            </div>
-        </div>
-        <!--/end of Navbar Contents -->
-
     </header>
 
     <!-- Online ID container-fluid -->
@@ -69,7 +48,6 @@
 
         <!-- Account Button Row -->
         <section class="search-bar-section">
-
             <!-- Search Button -->
             <div class="row search-bar">
                 <div class="col-sm-12">
@@ -77,7 +55,6 @@
                 </div>
             </div>
             <!-- /end of Search Button -->
-
         </section>
         <!-- /end of Account Button ID -->
 
@@ -91,68 +68,131 @@
         </section>
         <!-- /end of Current Balance -->
 
-        <!-- Main Content Section -->
-        <section class="main-account-content">
+        <!-- Now Viewing p -->
+        <section class="now-viewing">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-left">Now viewing
+                        <span>Current Statement
+                            <img src="icons/arrow-right.svg" class="arrow icon">
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--/end of Now Viewing p -->
 
-            <!-- Bank Accounts as <li> items -->
+
+
+        <!-- Main Content Section -->
+        <section class="account-details-content">
+
+            <!-- Account Details as <li> items -->
             <ul class="">
                 <li class="">
-                    <a class="account-list" href="#">
-                        <p class="text-left">Checking Account - 1345</p>
-                        <span class="">
-                            <img width="15" height="19" src="icons/arrow-right.svg">
-                        </span>
-                        <h4 class="cash-textcol-sm-12">$9,613.40</h4>
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">Pending
+                                <span class="cash-title text-left">$50.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">MACY'S
+                                <span class="price-value">$900.00</span>
+                            </p>
+                        </div>
                     </a>
                 </li>
                 <li class="">
-                    <a class="account-list" href="#">
-                        <p class="text-left">Savings Account - 2968</p>
-                        <span class="">
-                            <img width="15" height="19" src="icons/arrow-right.svg">
-                        </span>
-                        <h4 class="cash-text">$29,613.40</h4>
-                    </a>
-                </li>
-                <li class="not-available">
-                    <a class="account-list" href="#">
-                        <p class="text-left">RISK FREE CD - 3321</p>
-                        <span class="">
-                            <img width="15" height="19" src="icons/arrow-right.svg">
-                        </span>
-                        <h4 class="cash-text">$2,613.40</h4>
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">Pending
+                                <span class="cash-title text-left">$50.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">SUPERMARKET
+                                <span class="price-value">$850.00</span>
+                            </p>
+                        </div>
                     </a>
                 </li>
                 <li class="">
-                    <a class="account-list" href="#">
-                        <p class="text-left">Cash Rewards Signature Visa - 2968</p>
-                        <span class="">
-                                <img width="15" height="19" src="icons/arrow-right.svg">
-                            </span>
-                        <h4 class="cash-text">$900.00</h4>
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">11/26/2014
+                                <span class="cash-title text-left">$50.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">PABT 0806
+                                <span class="price-value">$800.00</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="">
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">11/26/2014
+                                <span class="cash-title text-left">$150.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">800 FLOWERS
+                                <span class="price-value">$650.00</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="">
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">11/23/2014
+                                <span class="cash-title text-left">$100.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">PAYPAL *SKETCHDESIGN
+                                <span class="price-value">$550.00</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="">
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">11/23/2014
+                                <span class="cash-title text-left">$200.00</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">WHOLEFDS CIR 2321
+                                <span class="price-value">$350.00</span>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+                <li class="">
+                    <a class="current-list" href="#">
+                        <div class="date-list">
+                            <p class="cash-text">10/23/2014
+                                <span class="cash-title text-left">$49.50</span>
+                            </p>
+                        </div>
+                        <div class="price-list">
+                            <p class="pending-value">K*MART
+                                <span class="price-value">$75.00</span>
+                            </p>
+                        </div>
                     </a>
                 </li>
             </ul>
-            <!--/end of Bank Accounts as <li> items -->
+            <!--/end of Account Details as <li> items -->
 
         </section>
         <!-- /end of Main Content Section -->
 
-        <!-- Open Savings Account -->
-        <section class="savings-account">
-            <!-- Icon and p text -->
-            <div class="row">
-                <div class="col-sm-12 savings-account-p">
-                    <p class="text-center">
-                        <a href="#">
-                            <span><img src="icons/star.svg"></span>Open a savings account
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <!-- /end of  con and p text-->
-        </section>
-        <!-- /end of Open Savings Account -->
 
         <!-- Bottom Paragraph -->
         <div class="p-bottom-end-account text-left">

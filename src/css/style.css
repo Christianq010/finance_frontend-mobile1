@@ -9057,6 +9057,67 @@ body {
       border-radius: 0px; }
       body .current-balance p span {
         float: right; }
+  body .now-viewing {
+    background: transparent;
+    margin: 1em 1em 0 1em; }
+    body .now-viewing p {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light"; }
+      body .now-viewing p span {
+        margin-top: 0.2em;
+        font-size: 0.8em;
+        float: right; }
+        body .now-viewing p span img {
+          width: 1em;
+          height: 1.2em;
+          margin: 0.2em 0.2em; }
+  body .account-details-content {
+    margin: 1% 0 0 0;
+    background-color: #ffffff;
+    width: 100%; }
+    body .account-details-content ul {
+      list-style: none;
+      padding: 0; }
+      body .account-details-content ul li {
+        margin: 0 4%;
+        border-bottom: solid 1px #979797; }
+        body .account-details-content ul li .current-list .date-list {
+          display: grid; }
+          body .account-details-content ul li .current-list .date-list p {
+            font-size: 1.3em;
+            color: #929497;
+            font-weight: 500;
+            font-family: "HelveticaNeue-light";
+            float: left;
+            margin: 1em;
+            font-family: "HelveticaNeue", Georgia, serif;
+            font-size: 1.2em;
+            margin: 1em 0 0.2em 0;
+            float: left; }
+            body .account-details-content ul li .current-list .date-list p span {
+              font-family: "HelveticaNeue-light";
+              color: #76AD68;
+              margin-top: 0.2em;
+              font-size: 1em;
+              float: right; }
+        body .account-details-content ul li .current-list .price-list {
+          display: grid; }
+          body .account-details-content ul li .current-list .price-list p {
+            font-size: 1.3em;
+            color: #929497;
+            font-weight: 500;
+            font-family: "HelveticaNeue-light";
+            float: left;
+            margin: 1em;
+            font-size: 1.2em;
+            margin: 0 0 0.5em 0;
+            float: left; }
+            body .account-details-content ul li .current-list .price-list p span {
+              margin-top: 0.2em;
+              font-size: 1em;
+              float: right; }
   body .p-bottom-end-account {
     color: #929497;
     font-size: 0.9em;
