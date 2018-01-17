@@ -1,5 +1,5 @@
 # Finance App - Mobile Mockup Sketch Design to Webpage 
-This project is a mockup Sketch project turned into a webpage optimized for a mobile experience. The Mockup was created on Sketch.
+This project is a mockup Sketch project turned into a webpage optimized for a mobile experience. The Mockup was created on Sketch. Please view the deployed link on a mobile device for an optimal viewing experience. 
 
 Tools used to aid the Front-end work were [Zeplin](https://zeplin.io/), Chrome Dev Tools for testing and NPM and Gulp for compiling [SASS](http://sass-lang.com/) and running a dev server and managing bower dependencies.
 
