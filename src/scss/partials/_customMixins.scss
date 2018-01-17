@@ -104,6 +104,15 @@
     border-bottom: none;
 }
 
+// Search Icon for Search bar
+@mixin search-icn {
+    background-image: url(../../icons/search-icn.png);
+    background-position: 19% 50%;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    border: none;
+}
+
 // Our standard TM footer p on Sign in pages
 @mixin footer-p {
     color: $cool-grey;

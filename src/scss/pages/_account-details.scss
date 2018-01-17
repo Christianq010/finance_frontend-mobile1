@@ -1,0 +1,41 @@
+body {
+    background-color: $pale-grey-two;
+    z-index: -1;
+    .search-bar-section {
+        .search-bar {
+            position: static;
+            margin: 1em auto;
+            .search-input {
+                @include standard-text;
+                width: 100%;
+                background-color: $white;
+                padding: 0.5em 0 0.5em 0;
+                border-radius: 2em;
+                @include search-icn;
+                border: solid 1px rgba(151, 151, 151, 0.5);
+            }
+        }
+    }
+    .current-balance {
+        position: static;
+        margin: 0 0 0 0;
+        p {
+            @include standard-text;
+            font-size: 1.4em;
+            width: 100%;
+            background-color: $white;
+            border-bottom: solid 1px rgb(151, 151, 151);
+            padding: 0.7em 1em;
+            border-radius: 0px;
+            span {
+                float: right;
+            }
+        }
+    }
+    // footer
+    .p-bottom-end-account {
+        @include footer-p;
+        margin-top: 10%;
+        height: 0;
+    }
+}

@@ -9020,6 +9020,52 @@ body {
     margin-top: 10%;
     height: 0; }
 
+body {
+  background-color: #eef1f4;
+  z-index: -1; }
+  body .search-bar-section .search-bar {
+    position: static;
+    margin: 1em auto; }
+    body .search-bar-section .search-bar .search-input {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light";
+      width: 100%;
+      background-color: #ffffff;
+      padding: 0.5em 0 0.5em 0;
+      border-radius: 2em;
+      background-image: url(../../icons/search-icn.png);
+      background-position: 19% 50%;
+      background-repeat: no-repeat;
+      background-size: 1em;
+      border: none;
+      border: solid 1px rgba(151, 151, 151, 0.5); }
+  body .current-balance {
+    position: static;
+    margin: 0 0 0 0; }
+    body .current-balance p {
+      font-size: 1.3em;
+      color: #929497;
+      font-weight: 500;
+      font-family: "HelveticaNeue-light";
+      font-size: 1.4em;
+      width: 100%;
+      background-color: #ffffff;
+      border-bottom: solid 1px #979797;
+      padding: 0.7em 1em;
+      border-radius: 0px; }
+      body .current-balance p span {
+        float: right; }
+  body .p-bottom-end-account {
+    color: #929497;
+    font-size: 0.9em;
+    line-height: 1.3;
+    margin-left: 4%;
+    height: 10em;
+    margin-top: 10%;
+    height: 0; }
+
 /*
 *
 * ------------- Global Styles ------------ |
